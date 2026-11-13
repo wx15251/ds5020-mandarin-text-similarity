@@ -1,0 +1,5 @@
+# Direct dependencies tested on Python 3.12, November 13, 2026.
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2
+scipy==1.18.1

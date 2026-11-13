@@ -1,0 +1,10 @@
+category,field,dtype,missing,source_rows
+sports,id,str,0,1000
+sports,title,str,0,1000
+sports,content,str,0,1000
+education,id,str,0,1000
+education,title,str,0,1000
+education,content,str,0,1000
+technology,id,str,0,1000
+technology,title,str,0,1000
+technology,content,str,0,1000

@@ -1,0 +1,32 @@
+{
+  "retrieved_on": "2026-11-13",
+  "sources": [
+    {
+      "category": "sports",
+      "original_category": "体育",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E4%BD%93%E8%82%B2.jsonl",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "prefix_rows": 1000,
+      "sha256": "b232dd73cf081e145974ce58d8cef7cd2d229cf78187ddd6345ad32a283617f6",
+      "bytes": 2827911
+    },
+    {
+      "category": "education",
+      "original_category": "教育",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E6%95%99%E8%82%B2.jsonl",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "prefix_rows": 1000,
+      "sha256": "371605ce60c6ce4048049afaf7dd0e962daa82d6e1474a8e500ce1e3483c0426",
+      "bytes": 3957581
+    },
+    {
+      "category": "technology",
+      "original_category": "科技",
+      "url": "https://huggingface.co/datasets/Tongjilibo/THUCNews/resolve/ae77e363396e90b54cdaa9eafdbc5e102a3d4019/%E7%A7%91%E6%8A%80.jsonl",
+      "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+      "prefix_rows": 1000,
+      "sha256": "7e4b0361a9fd7213bfa80c3e3bc1cb63d2dfc74e157764ce74287d84f470c554",
+      "bytes": 3278715
+    }
+  ]
+}

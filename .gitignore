@@ -1,0 +1,26 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+node_modules/
+tmp/
+outputs/
+
+# Raw and processed corpora stay local. Documentation and placeholders stay tracked.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Keep final PDFs; exclude LaTeX build intermediates.
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+~$*.xlsx

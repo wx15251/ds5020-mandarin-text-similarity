@@ -1,0 +1,16 @@
+,value
+documents,300.0
+categories,3.0
+per_category,100.0
+source_rows_examined,3000.0
+metadata_columns,4.0
+terms,3123.0
+zero_idf_terms,0.0
+zero_tfidf_documents,0.0
+duplicate_cleaned_documents,0.0
+nonzero_entries,94011.0
+density,0.10034261927633685
+min_characters,72.0
+median_characters,788.0
+max_characters,3962.0
+mean_characters,928.34
