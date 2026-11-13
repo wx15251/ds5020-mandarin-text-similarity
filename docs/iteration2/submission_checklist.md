@@ -15,6 +15,7 @@ Prepared November 13, 2026 for James Cottrell. Likely due Sunday, November 15; e
 - [x] Overleaf source ZIP with required figures and generated tables.
 - [x] Excel plan updated with task/status/timeline and honest contributions.
 - [x] Raw article text and local matrices excluded from Git; download procedure and provenance recorded.
+- [x] Private GitHub repository pushed; remote main and the report/ZIP/Excel Git blobs verified against the local repository.
 
 ## External and student steps
 
