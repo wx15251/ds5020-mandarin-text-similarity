@@ -1,6 +1,6 @@
 # Iteration 2 working notes
 
-Updated November 13, 2026. The initial proposals have now been implemented in the local Iteration 2 deliverables. See `main.tex`, the compiled report in `../iteration2_report.pdf`, and `results/` for full arguments and actual measurements.
+Updated November 14, 2026. The initial proposals have now been implemented in the local Iteration 2 deliverables. See `main.tex`, the compiled report in `../iteration2_report.pdf`, and `results/` for full arguments and actual measurements.
 
 ## Decisions implemented
 
@@ -24,6 +24,6 @@ The real sample has 300 documents, 3,123 terms, 94,011 nonzero TF-IDF entries, n
 
 ## Still unresolved
 
-Overleaf requires sign-in, upload, read-only sharing, and final export. Independent checker/signature treatment for solo work requires instructor guidance. The private GitHub repository requires instructor access before submission. Final author review and Canvas submission remain open. No permission question is needed for continued local verification and documentation.
+Overleaf upload, 14-page compilation, Viewer sharing, and actual PDF export were completed on November 14 after the user signed in. Links and provenance are in `submission_links.md` and `overleaf_export.json`. Independent checker/signature treatment for solo work requires instructor guidance. The private GitHub repository requires instructor access before submission. Final author review and Canvas submission remain open. No permission question is needed for continued local verification and documentation.
 
 For the next working session, review the finished report with the student, especially the proof of optimality, the coordinate scaling distinction, and the finite-prefix sampling limitation. Do not restart the initial setup or rerun unrelated checks without a reason.

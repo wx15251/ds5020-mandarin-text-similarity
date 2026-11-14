@@ -1,6 +1,6 @@
 # Project context
 
-Updated November 13, 2026. Student: **James Cottrell**. Solo DS5020 project: **Finding Similar Mandarin Texts Using Linear Algebra**.
+Updated November 14, 2026. Student: **James Cottrell**. Solo DS5020 project: **Finding Similar Mandarin Texts Using Linear Algebra**.
 
 ## User decisions and current authorization
 
@@ -20,7 +20,11 @@ The new `/Users/jc/Downloads/iteration2-1.pdf` is byte-identical to `reference/i
 - Source revision/hashes, finite-prefix sampling procedure, sample IDs, data audit, and figures documented.
 - Overleaf upload ZIP and editable Excel plan.
 
-GitHub repository: https://github.com/wx15251/ds5020-mandarin-text-similarity (private). Final push/verification is recorded in the submission checklist. Overleaf browser access currently reaches the sign-in screen; no Overleaf project or read-only URL exists yet.
+GitHub repository: https://github.com/wx15251/ds5020-mandarin-text-similarity (private). Final push/verification is recorded in the submission checklist. On November 14 the user signed into Overleaf and supplied the copied share link after authorizing ZIP upload. The new project, DS5020 Iteration 2 - Mandarin Text Similarity, compiled all 14 pages. Anyone with the share link has Viewer access. The actual Overleaf PDF export replaced the local PDF; all 14 rendered pages are pixel-identical at 100 DPI to the reviewed local build.
+
+Overleaf project: https://www.overleaf.com/project/6af8a768417dd66bd7ceb644
+
+Overleaf read-only link: https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25
 
 ## Method choices now in use
 
@@ -30,6 +34,6 @@ The real dataset uses a pinned Tongjilibo mirror revision and a random sample fr
 
 ## Remaining human/external steps
 
-Author review and ability to explain the work; instructor's solo-checker/signature convention; any official template if later supplied; Overleaf sign-in/upload/read-only link and Overleaf PDF export; instructor access to the private GitHub repository; final Canvas link submission.
+Author review and ability to explain the work; instructor's solo-checker/signature convention; any official template if later supplied; instructor access to the private GitHub repository; final Canvas link submission. Overleaf setup, compilation, Viewer sharing, and actual PDF export are complete.
 
 AI preparation is documented separately from student contributions. No invented signatures, independent checkers, student hours, approvals, or submission records. See `iteration2/submission_checklist.md` and `project_plan.xlsx`.

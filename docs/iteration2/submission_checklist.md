@@ -1,6 +1,6 @@
 # Iteration 2 submission status
 
-Prepared November 13, 2026 for James Cottrell. Likely due Sunday, November 15; exact course deadline unconfirmed.
+Prepared November 13, 2026 for James Cottrell. Updated November 14 after completing Overleaf setup and export. Likely due Sunday, November 15; exact course deadline unconfirmed.
 
 ## Complete locally
 
@@ -21,15 +21,15 @@ Prepared November 13, 2026 for James Cottrell. Likely due Sunday, November 15; e
 
 - [ ] James reviews the report/code and practices explaining each derivation.
 - [ ] Confirm how the instructor wants a solo owner to satisfy checker/signature requirements. No second checker or signature is fabricated.
-- [ ] Sign into Overleaf and choose New Project > Upload Project > `docs/iteration2_overleaf.zip`.
-- [ ] Compile `main.tex` in Overleaf, verify the PDF, and enable/read the read-only sharing link.
-- [ ] Download the PDF from Overleaf to `docs/iteration2_report.pdf` if the instructor requires the actual Overleaf export. The current PDF was compiled locally from the same source.
+- [x] User signed into Overleaf; `docs/iteration2_overleaf.zip` uploaded as a new project on November 14.
+- [x] Overleaf compiled `main.tex` to 14 pages; sharing is Anyone with the link / Viewer; user supplied the copied share URL.
+- [x] Actual Overleaf PDF exported to `docs/iteration2_report.pdf` on November 14; all rendered pages match the reviewed local build at 100 DPI.
 - [ ] Grant the instructor access to the private GitHub repository, or choose a different visibility arrangement.
 - [ ] Incorporate an official template if one is provided; none is available in the supplied materials.
 - [ ] Confirm the deadline and submit the GitHub and Overleaf read-only links on Canvas.
 
 Repository: https://github.com/wx15251/ds5020-mandarin-text-similarity
 
-Overleaf read-only link: not created (sign-in required).
+Overleaf read-only link: https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25
 
-No Canvas submission has been made. Preparing an upload ZIP does not constitute an Overleaf project, and preparing a report does not constitute student sign-off.
+No Canvas submission has been made. The Overleaf project is created and compiled; author review and student sign-off remain open.

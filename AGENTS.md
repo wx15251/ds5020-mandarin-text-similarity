@@ -11,3 +11,4 @@
 - The user confirmed solo work. Leave the checker convention unresolved until clarified; do not invent a teammate or equate AI feedback with an instructor-approved second checker.
 - Report author: James Cottrell. On November 13 the user said the likely deadline is Sunday, November 15, and wants to finish today. No specific report/Excel template or solo checker guidance has been supplied. The newly supplied iteration2-1.pdf is byte-identical to the original iteration2.pdf.
 - Use `docs/project_plan.xlsx` as the task-status and contribution tracker. Keep source documents unchanged, raw corpora out of Git, and update the project context when decisions change.
+- On November 14 the user signed into Overleaf and authorized upload. The project, 14-page compilation, Viewer link, and actual PDF export are complete. See `docs/iteration2/submission_links.md`; keep those completed steps out of future blocker lists.
