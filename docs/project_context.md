@@ -20,7 +20,7 @@ The new `/Users/jc/Downloads/iteration2-1.pdf` is byte-identical to `reference/i
 - Source revision/hashes, finite-prefix sampling procedure, sample IDs, data audit, and figures documented.
 - Overleaf upload ZIP and editable Excel plan.
 
-GitHub repository: https://github.com/wx15251/ds5020-mandarin-text-similarity (private). Final push/verification is recorded in the submission checklist. On November 14 the user signed into Overleaf and supplied the copied share link after authorizing ZIP upload. The new project, DS5020 Iteration 2 - Mandarin Text Similarity, compiled all 14 pages. Anyone with the share link has Viewer access. The actual Overleaf PDF export replaced the local PDF; all 14 rendered pages are pixel-identical at 100 DPI to the reviewed local build.
+GitHub repository: https://github.com/wx15251/ds5020-mandarin-text-similarity (public; anonymous read access verified November 14). Final push/verification is recorded in the submission checklist. On November 14 the user signed into Overleaf and supplied the copied share link after authorizing ZIP upload. The new project, DS5020 Iteration 2 - Mandarin Text Similarity, compiled all 14 pages. Anyone with the share link has Viewer access. The actual Overleaf PDF export replaced the local PDF; all 14 rendered pages are pixel-identical at 100 DPI to the reviewed local build.
 
 Overleaf project: https://www.overleaf.com/project/6af8a768417dd66bd7ceb644
 
@@ -34,8 +34,8 @@ The real dataset uses a pinned Tongjilibo mirror revision and a random sample fr
 
 ## Remaining human/external steps
 
-On November 14 the user asked for link-based GitHub access but does not have the instructor username. GitHub has no unlisted link-only repository visibility. Public visibility was explained and offered; the user's public/private choice is still pending. No repository visibility change or collaborator invitation has been made. The consolidated deliverables list is `iteration2/submission_links.md`.
+On November 14 the user explicitly approved making the existing GitHub repository public after being told that all current contents would be visible to everyone. The visibility change is complete. Anonymous API and README requests returned HTTP 200, and the repository API reports private=false. No instructor account or invitation is needed for reading. The complete deliverables list is `iteration2/submission_links.md`.
 
-Author review and ability to explain the work; instructor's solo-checker/signature convention; any official template if later supplied; instructor access to the private GitHub repository; final Canvas link submission. Overleaf setup, compilation, Viewer sharing, and actual PDF export are complete.
+Author review and ability to explain the work; instructor's solo-checker/signature convention; any official template if later supplied; final Canvas link submission. Overleaf setup, compilation, Viewer sharing, and actual PDF export are complete.
 
 AI preparation is documented separately from student contributions. No invented signatures, independent checkers, student hours, approvals, or submission records. See `iteration2/submission_checklist.md` and `project_plan.xlsx`.

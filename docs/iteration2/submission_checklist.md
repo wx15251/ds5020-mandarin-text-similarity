@@ -15,7 +15,7 @@ Prepared November 13, 2026 for James Cottrell. Updated November 14 after complet
 - [x] Overleaf source ZIP with required figures and generated tables.
 - [x] Excel plan updated with task/status/timeline and honest contributions.
 - [x] Raw article text and local matrices excluded from Git; download procedure and provenance recorded.
-- [x] Private GitHub repository pushed; remote main and the report/ZIP/Excel Git blobs verified against the local repository.
+- [x] GitHub repository pushed; remote main and report/ZIP/Excel Git blobs verified against the local repository. Public read access enabled with user approval on November 14.
 
 ## External and student steps
 
@@ -24,7 +24,7 @@ Prepared November 13, 2026 for James Cottrell. Updated November 14 after complet
 - [x] User signed into Overleaf; `docs/iteration2_overleaf.zip` uploaded as a new project on November 14.
 - [x] Overleaf compiled `main.tex` to 14 pages; sharing is Anyone with the link / Viewer; user supplied the copied share URL.
 - [x] Actual Overleaf PDF exported to `docs/iteration2_report.pdf` on November 14; all rendered pages match the reviewed local build at 100 DPI.
-- [ ] Grant the instructor access to the private GitHub repository, or choose a different visibility arrangement.
+- [x] User approved public GitHub visibility; anonymous repository and README access verified. Instructor can read without an invitation.
 - [ ] Incorporate an official template if one is provided; none is available in the supplied materials.
 - [ ] Confirm the deadline and submit the GitHub and Overleaf read-only links on Canvas.
 

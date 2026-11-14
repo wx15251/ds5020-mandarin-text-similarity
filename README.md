@@ -2,7 +2,7 @@
 
 James Cottrell | DS5020 Intro Linear Algebra & Probability | Fall 2026
 
-This is the main workspace for the individual project. Iteration 2's report, computation, GitHub repository, and Overleaf project are prepared. Overleaf compiled all 14 pages and the exported PDF was saved on November 14, 2026. The instructor's solo-checker convention, author review, instructor access to GitHub, and Canvas submission remain open.
+This is the main workspace for the individual project. Iteration 2's report, computation, GitHub repository, and Overleaf project are prepared. Overleaf compiled all 14 pages and the exported PDF was saved on November 14, 2026. GitHub is now public and accessible without signing in. The instructor's solo-checker convention, author review, and Canvas submission remain open.
 
 ## Deliverables
 

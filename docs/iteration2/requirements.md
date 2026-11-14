@@ -17,7 +17,7 @@ This checklist paraphrases the supplied course documents. Updated November 14, 2
 | R09 | Simulate a small dataset with known truth, using `np.random.default_rng(0)`. | Simulation script and recorded outputs |
 | R10 | Include Simulation Check: model, parameters, sample size, truth/estimate table, and a sentence connecting each derivation to a numerical check. | Report: Simulation Check |
 | R11 | Keep all code in `src/`; use only NumPy, pandas, Matplotlib, and scipy.stats unless permitted otherwise; whole-method library routines only for final comparison. | Source code and method/comparison separation |
-| R12 | Set up GitHub with `src/`, `data/`, `figures/`, `docs/`; keep large raw files out of Git; document downloads. | Private GitHub repository and README; instructor access still to arrange |
+| R12 | Set up GitHub with `src/`, `data/`, `figures/`, `docs/`; keep large raw files out of Git; document downloads. | Public GitHub repository and README; anonymous read access verified November 14 |
 | R13 | Set up Overleaf using the Iteration 2 template. | Overleaf project created and compiled; Viewer link saved; no official template supplied |
 | R14 | Update an Excel plan with task ID, task, owner, checker, status, timeline, and contributions. | `../project_plan.xlsx` |
 | R15 | Place the exported Overleaf report PDF in `docs/`. | Actual Overleaf export in `../iteration2_report.pdf`, November 14 |
@@ -79,4 +79,5 @@ The general document restricts `numpy.linalg` routines to checking results, whil
 - [ ] Author review and signatures/checker treatment under clarified solo convention.
 - [ ] Official template incorporated if one is supplied.
 - [x] Overleaf project, actual PDF export, and Viewer share link created after user sign-in.
-- [ ] Instructor access to GitHub arranged; final links reviewed and submitted on Canvas.
+- [x] GitHub public read access enabled with user approval; anonymous access verified.
+- [ ] Final author review of links and Canvas submission.
