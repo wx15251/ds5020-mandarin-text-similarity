@@ -1,15 +1,33 @@
-# Submission links
+# Iteration 2 deliverables
 
-Updated November 14, 2026 for James Cottrell.
+James Cottrell - Finding Similar Mandarin Texts Using Linear Algebra. Updated November 14, 2026.
 
-- [Overleaf read-only project](https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25): Anyone with the link has **Viewer** access. The user supplied this exact copied share URL after signing in.
-- [Overleaf owner project](https://www.overleaf.com/project/6af8a768417dd66bd7ceb644): DS5020 Iteration 2 - Mandarin Text Similarity.
-- [GitHub repository](https://github.com/wx15251/ds5020-mandarin-text-similarity): private; instructor access still needs arranging.
-- [Report PDF](../iteration2_report.pdf): actual Overleaf export, 14 pages, downloaded November 14.
-- [Source ZIP](../iteration2_overleaf.zip): uploaded without changing the report source.
+This is the complete deliverables list and the main place to find submission files and links.
 
-The export's rendered pages are pixel-identical at 100 DPI to the reviewed local build. PDF bytes and some text-extraction encodings differ due to the separate compilation. Export provenance is recorded in `overleaf_export.json`.
+| Deliverable | File or link | Contents / status |
+| --- | --- | --- |
+| Report PDF | [Download the report](../iteration2_report.pdf) | Actual 14-page Overleaf export: all five math answers, proofs, hand example, algorithm/costs, real-data description, plots, and simulation checks. |
+| GitHub repository | [Open the repository](https://github.com/wx15251/ds5020-mandarin-text-similarity) | Code, data-download instructions, figures, measured results, and documentation. Currently private; access decision pending. |
+| Excel project plan | [Download the plan](../project_plan.xlsx) | Task IDs, owners/checker fields, status, timeline, and contributions. |
+| Overleaf read-only project | [Open the Viewer link](https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25) | Compiled successfully. Anyone with this link has Viewer access. |
+| Overleaf source backup | [Download the source ZIP](../iteration2_overleaf.zip) | LaTeX, generated tables, and figures; the same package uploaded to Overleaf. |
 
-[Viewer permission evidence](evidence/overleaf-viewer-sharing.jpg) and [compiled-project evidence](evidence/overleaf-compiled-report.jpg) were captured from Overleaf.
+## Links for Canvas
 
-No Canvas submission has been made. Author review and the instructor's solo-checker convention remain open. No independent checker or signature is claimed.
+GitHub repository: https://github.com/wx15251/ds5020-mandarin-text-similarity
+
+Overleaf read-only project: https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25
+
+The assignment requests these two links. The PDF and Excel plan are also saved in the repository's `docs/` folder.
+
+## Supporting material
+
+- [Python source](../../src/): the explicit TF-IDF/cosine implementation, custom Jacobi SVD, simulation, data loading, verification, and report builder.
+- [Measured result tables](results/) and [report figures](../../figures/).
+- [Dataset acquisition/provenance](../../data/README.md); raw news articles remain outside Git.
+- [Check-in study guide](checkin_guide.md) and [remaining submission checklist](submission_checklist.md).
+- [Overleaf owner/editor project](https://www.overleaf.com/project/6af8a768417dd66bd7ceb644) for later editing.
+
+The PDF was exported from Overleaf on November 14. All 14 rendered pages match the reviewed local build at 100 DPI. [Export provenance](overleaf_export.json) and [Viewer permission evidence](evidence/overleaf-viewer-sharing.jpg) are retained.
+
+GitHub sharing is being finalized. Author review, the instructor's solo-checker convention, confirmation of the deadline, and final Canvas submission remain open. No Canvas submission or independent checker signature is claimed.

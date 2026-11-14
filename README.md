@@ -6,16 +6,7 @@ This is the main workspace for the individual project. Iteration 2's report, com
 
 ## Deliverables
 
-- [Compiled report](docs/iteration2_report.pdf): all five math questions, full proofs, notation, assumptions, a hand example, algorithm/costs, real-data description, and known-truth simulation.
-- [Overleaf source ZIP](docs/iteration2_overleaf.zip): the package uploaded to Overleaf. The current report PDF is the actual Overleaf export from November 14. Re-running `build_report.py` produces a local rebuild from the same source.
-- [LaTeX source](docs/iteration2/main.tex) and [measured result tables](docs/iteration2/results/).
-- [Excel plan](docs/project_plan.xlsx): owners, checker fields, task status, timeline, and contributions.
-- [Submission checklist](docs/iteration2/submission_checklist.md): remaining actions and their exact status.
-- [Check-in study guide](docs/iteration2/checkin_guide.md): the main ideas to explain in your own words.
-
-GitHub: https://github.com/wx15251/ds5020-mandarin-text-similarity (private; instructor access still needs arranging).
-
-Overleaf [read-only project](https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25) (anyone with the link has Viewer access).
+[Open the complete Iteration 2 deliverables list](docs/iteration2/submission_links.md) for the report PDF, GitHub repository, Excel plan, Overleaf Viewer link, source ZIP, and the two links to paste into Canvas.
 
 Likely due date: Sunday, November 15, 2026, per the user's November 13 update; not confirmed. The working target was to complete preparation on November 13. No official Overleaf/Excel template has been supplied.
 

@@ -34,6 +34,8 @@ The real dataset uses a pinned Tongjilibo mirror revision and a random sample fr
 
 ## Remaining human/external steps
 
+On November 14 the user asked for link-based GitHub access but does not have the instructor username. GitHub has no unlisted link-only repository visibility. Public visibility was explained and offered; the user's public/private choice is still pending. No repository visibility change or collaborator invitation has been made. The consolidated deliverables list is `iteration2/submission_links.md`.
+
 Author review and ability to explain the work; instructor's solo-checker/signature convention; any official template if later supplied; instructor access to the private GitHub repository; final Canvas link submission. Overleaf setup, compilation, Viewer sharing, and actual PDF export are complete.
 
 AI preparation is documented separately from student contributions. No invented signatures, independent checkers, student hours, approvals, or submission records. See `iteration2/submission_checklist.md` and `project_plan.xlsx`.
