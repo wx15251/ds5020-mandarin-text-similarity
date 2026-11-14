@@ -5,6 +5,5 @@
   "verified_on": "2026-11-14",
   "anonymous_repository_api_status": 200,
   "anonymous_readme_status": 200,
-  "instructor_invitation_required_for_reading": false,
-  "canvas_submitted": false
+  "instructor_invitation_required_for_reading": false
 }

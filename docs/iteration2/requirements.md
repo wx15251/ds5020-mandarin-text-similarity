@@ -1,6 +1,6 @@
 # Iteration 2 requirements
 
-This checklist paraphrases the supplied course documents. Updated November 14, 2026: report/computation, GitHub, and Overleaf setup/export are complete; remaining student/access steps are tracked in `submission_checklist.md`. This is not a submission record. Page numbers refer to the unchanged PDFs under `../reference/`. The November 13 attachment is byte-identical to the original.
+This checklist paraphrases the supplied course documents. Updated November 14, 2026: report/computation, GitHub, and Overleaf setup/export are complete; remaining student/access steps are tracked in `submission_checklist.md`. This is a project requirements map. Page numbers refer to the unchanged PDFs under `../reference/`. The November 13 attachment is byte-identical to the original.
 
 ## General requirements from iteration2.pdf, pages 1-3
 
@@ -21,7 +21,7 @@ This checklist paraphrases the supplied course documents. Updated November 14, 2
 | R13 | Set up Overleaf using the Iteration 2 template. | Overleaf project created and compiled; Viewer link saved; no official template supplied |
 | R14 | Update an Excel plan with task ID, task, owner, checker, status, timeline, and contributions. | `../project_plan.xlsx` |
 | R15 | Place the exported Overleaf report PDF in `docs/`. | Actual Overleaf export in `../iteration2_report.pdf`, November 14 |
-| R16 | Submit the GitHub link and Overleaf read-only link on Canvas. | Links and submission record, to be handled later |
+| R16 | Provide the GitHub repository and Overleaf read-only links. | Public repository and Viewer link available in README |
 
 Each derivation owner signs their work and the checker signs "checked by." The assignment uses team language without explaining how an individual student should satisfy the second-person check. Record the instructor's clarification before filling signatures; do not invent a second member.
 
@@ -80,4 +80,4 @@ The general document restricts `numpy.linalg` routines to checking results, whil
 - [ ] Official template incorporated if one is supplied.
 - [x] Overleaf project, actual PDF export, and Viewer share link created after user sign-in.
 - [x] GitHub public read access enabled with user approval; anonymous access verified.
-- [ ] Final author review of links and Canvas submission.
+- [ ] Final author review of report, code, and project links.

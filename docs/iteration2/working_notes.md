@@ -24,6 +24,6 @@ The real sample has 300 documents, 3,123 terms, 94,011 nonzero TF-IDF entries, n
 
 ## Still unresolved
 
-Overleaf upload, 14-page compilation, Viewer sharing, and actual PDF export were completed on November 14 after the user signed in. Links and provenance are in `submission_links.md` and `overleaf_export.json`. Independent checker/signature treatment for solo work requires instructor guidance. The user approved public GitHub visibility on November 14; anonymous read access is verified, so no instructor invitation is required. Final author review and Canvas submission remain open. No permission question is needed for continued local verification and documentation.
+Overleaf upload, 14-page compilation, Viewer sharing, and actual PDF export were completed on November 14 after the user signed in. Artifact links are in README and export provenance is in `overleaf_export.json`. Independent checker/signature treatment for solo work requires instructor guidance. The user approved public GitHub visibility on November 14; anonymous read access is verified, so no instructor invitation is required. Final author review remains open. No permission question is needed for continued local verification and documentation.
 
 For the next working session, review the finished report with the student, especially the proof of optimality, the coordinate scaling distinction, and the finite-prefix sampling limitation. Do not restart the initial setup or rerun unrelated checks without a reason.

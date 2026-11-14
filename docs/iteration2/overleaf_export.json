@@ -8,6 +8,5 @@
   "report_pages": 14,
   "report_sha256": "78468090f0bdd2eeee5071f7de450d850f7215f0e668ef47bf64169f6d2a4088",
   "source_zip_sha256": "d5df98ffde22c058ed1666f7c89d0c4a324ceaf08ad679af109b52f97d82b6f6",
-  "verification": "All 14 pages render pixel-identically at 100 DPI to the reviewed local build.",
-  "canvas_submitted": false
+  "verification": "All 14 pages render pixel-identically at 100 DPI to the reviewed local build."
 }

@@ -1,4 +1,4 @@
-# Iteration 2 submission status
+# Iteration 2 project checklist
 
 Prepared November 13, 2026 for James Cottrell. Updated November 14 after completing Overleaf setup and export. Likely due Sunday, November 15; exact course deadline unconfirmed.
 
@@ -26,10 +26,9 @@ Prepared November 13, 2026 for James Cottrell. Updated November 14 after complet
 - [x] Actual Overleaf PDF exported to `docs/iteration2_report.pdf` on November 14; all rendered pages match the reviewed local build at 100 DPI.
 - [x] User approved public GitHub visibility; anonymous repository and README access verified. Instructor can read without an invitation.
 - [ ] Incorporate an official template if one is provided; none is available in the supplied materials.
-- [ ] Confirm the deadline and submit the GitHub and Overleaf read-only links on Canvas.
 
 Repository: https://github.com/wx15251/ds5020-mandarin-text-similarity
 
 Overleaf read-only link: https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25
 
-No Canvas submission has been made. The Overleaf project is created and compiled; author review and student sign-off remain open.
+The Overleaf project is created and compiled; author review and student sign-off remain open.
