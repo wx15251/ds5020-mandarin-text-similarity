@@ -1,0 +1,4 @@
+data,known_query_matches_document,mixed_oov_unchanged,unsupported_query_rejected,zero_original_columns
+Sim n=40,True,True,True,0
+Sim n=200,True,True,True,0
+Sim n=1000,True,True,True,0

@@ -1,0 +1,12 @@
+{
+  "iteration2_npz_sha256": "a44e1dd1b7677457e94b907039c74259885372af84956009dea8a02032d95d33",
+  "same_seed": 0,
+  "model": "Dirichlet then 60-token multinomial; grouped topic draw order",
+  "sample_sizes": [
+    40,
+    200,
+    1000
+  ],
+  "larger_samples_nested": false,
+  "sampling_curve": "pooled first-25-token probability, conditional on fixed theta"
+}

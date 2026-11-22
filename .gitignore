@@ -8,6 +8,8 @@ __pycache__/
 node_modules/
 tmp/
 outputs/
+docs/local/
+*.inspect.ndjson
 
 # Raw and processed corpora stay local. Documentation and placeholders stay tracked.
 data/raw/*

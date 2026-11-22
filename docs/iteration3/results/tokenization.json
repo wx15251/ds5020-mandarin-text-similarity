@@ -1,0 +1,15 @@
+{
+  "jieba_version": "0.42.1",
+  "mode": "precise",
+  "HMM": true,
+  "dictionary_sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+  "stopword_list": null,
+  "word_cleaning": "non-U+4E00..U+9FFF runs replaced by spaces; discard space tokens",
+  "character_cleaning": "same U+4E00..U+9FFF filter as Iteration 2",
+  "token_file_sha256": {
+    "character": "60b06f58a043252c0cb721e43bc727d1ec2c8054e34819324fc93851d98278c3",
+    "word": "f77c486582274e70b58652c3781f8ef94f45a8bd6732f50b726c7b78fe9b6c61"
+  },
+  "documents_removed_this_iteration": 0,
+  "train_test_split": null
+}

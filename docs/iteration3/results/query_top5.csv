@@ -1,0 +1,21 @@
+tokens,representation,position,document_id,category,title,cosine,largest_positive_query_terms
+character,TF-IDF,1,education:294,education,独家访谈：对准备留美学生的独家建议,0.213619439248303,煊 张 伟 冠 毕
+character,TF-IDF,2,sports:668,sports,火箭脱困先弃小布再留姚明 一笔惊人交易必须要做,0.1860208486117839,冠 军 球 莫 伟
+character,TF-IDF,3,education:258,education,实现“留学梦”：盘点各国奖学金制度,0.15076182518712555,奖 兰 供 金 夫
+character,TF-IDF,4,sports:374,sports,前方手记：阿联微笑挂在脸上 华盛顿没有勾心斗角,0.14278952201925169,泽 脸 笑 派 眼
+character,TF-IDF,5,education:14,education,海外见闻：北大女研究生落寞温哥华,0.13420500012027775,宝 她 泽 抽 夫
+character,SVD 90%,1,sports:374,sports,前方手记：阿联微笑挂在脸上 华盛顿没有勾心斗角,0.28088699461982775,泽 煊 旭 夫 夏
+character,SVD 90%,2,education:58,education,教育节智慧课堂演讲者：Sarah Bailey,0.21643138864996864,奖 游 宝 军 她
+character,SVD 90%,3,education:294,education,独家访谈：对准备留美学生的独家建议,0.2139805206311899,煊 张 伟 冠 军
+character,SVD 90%,4,sports:301,sports,亚历山大惨遭黄蜂裁员 中国男孩曾在北京创造纪录,0.2084102437982583,泽 黄 夏 赛 煊
+character,SVD 90%,5,sports:937,sports,2011年迎头恶仗战八一 李春江：还要给年轻人机会,0.20218657712185334,煊 赛 军 队 旭
+word,TF-IDF,1,sports:668,sports,火箭脱困先弃小布再留姚明 一笔惊人交易必须要做,0.033290268077074824,冠军 球队 他们 拿到 难得
+word,TF-IDF,2,sports:584,sports,太阳“特权”球员另有他人 坦言对中国球鞋感兴趣,0.029939997633068,教练 我 你 球队 莱德
+word,TF-IDF,3,education:294,education,独家访谈：对准备留美学生的独家建议,0.029314536686858725,冠军 主持人 社会 你 我
+word,TF-IDF,4,education:126,education,留学生自白书：带着“中国”去留学(图),0.028149599488470577,活动 中国 搞 交流 提出
+word,TF-IDF,5,education:138,education,奇遇记：我在耶鲁遇到啥样的明星导师,0.02697915334827796,我 名人 微笑 活动 他
+word,SVD 90%,1,education:740,education,黑龙江举办引才活动为海归人士搭建平台　,0.11893756444871796,夏煊泽 黄旭 活动 高尔夫 张军
+word,SVD 90%,2,education:361,education,震撼：难得一见的美国大学毕业典礼(组图),0.09398985953373121,夏煊泽 黄旭 高尔夫 现场 张军
+word,SVD 90%,3,education:58,education,教育节智慧课堂演讲者：Sarah Bailey,0.07803269085961104,夏煊泽 她 运动员 黄旭 高尔夫
+word,SVD 90%,4,education:671,education,八方支援：15名留韩学子赴汶川做志愿者,0.07747346011687421,夏煊泽 活动 黄旭 高尔夫 冠军
+word,SVD 90%,5,technology:872,technology,美网站公布3D视频揭示肿瘤生长过程(组图),0.06601010266189006,夏煊泽 黄旭 高尔夫 老虎 冠军

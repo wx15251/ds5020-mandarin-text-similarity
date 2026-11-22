@@ -1,0 +1,4 @@
+category,source_rows,missing_title_or_content,removed_short,removed_exact_duplicates_after_length_filter,eligible_rows,selected_rows,eligible_not_selected
+sports,1000,0,0,0,1000,100,900
+education,1000,0,3,0,997,100,897
+technology,1000,0,0,0,1000,100,900

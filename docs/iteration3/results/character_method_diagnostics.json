@@ -1,0 +1,1106 @@
+{
+  "gram_side": "right",
+  "tolerance": 1e-14,
+  "rank_rtol": 1e-12,
+  "total_energy": 3544331.8751022955,
+  "retained_energy": 0.90037026879873,
+  "components": [
+    {
+      "component": 1,
+      "iterations": 33,
+      "eigenvalue": 308320.7892231018,
+      "projected_residual": 3.745860955109364e-09,
+      "original_residual": 3.745860955109364e-09,
+      "history": []
+    },
+    {
+      "component": 2,
+      "iterations": 137,
+      "eigenvalue": 124337.39443622594,
+      "projected_residual": 4.2954283213088325e-09,
+      "original_residual": 5.702680570234198e-09,
+      "history": []
+    },
+    {
+      "component": 3,
+      "iterations": 1314,
+      "eigenvalue": 99737.78818844366,
+      "projected_residual": 4.620215327149373e-09,
+      "original_residual": 6.311210113024594e-09,
+      "history": []
+    },
+    {
+      "component": 4,
+      "iterations": 208,
+      "eigenvalue": 97696.55164448105,
+      "projected_residual": 4.121131286775307e-09,
+      "original_residual": 6.195147324498845e-09,
+      "history": []
+    },
+    {
+      "component": 5,
+      "iterations": 599,
+      "eigenvalue": 85012.1764513895,
+      "projected_residual": 4.448296496390451e-09,
+      "original_residual": 6.067720516605107e-09,
+      "history": []
+    },
+    {
+      "component": 6,
+      "iterations": 203,
+      "eigenvalue": 81257.84624110669,
+      "projected_residual": 4.26555935656584e-09,
+      "original_residual": 6.165369842918463e-09,
+      "history": []
+    },
+    {
+      "component": 7,
+      "iterations": 320,
+      "eigenvalue": 70750.60330026541,
+      "projected_residual": 4.499239397477814e-09,
+      "original_residual": 6.197427198101897e-09,
+      "history": []
+    },
+    {
+      "component": 8,
+      "iterations": 746,
+      "eigenvalue": 64964.55082689048,
+      "projected_residual": 4.5994003697584e-09,
+      "original_residual": 6.432230724486008e-09,
+      "history": []
+    },
+    {
+      "component": 9,
+      "iterations": 795,
+      "eigenvalue": 62780.38355752612,
+      "projected_residual": 4.5451379163758795e-09,
+      "original_residual": 6.4662142115811575e-09,
+      "history": []
+    },
+    {
+      "component": 10,
+      "iterations": 827,
+      "eigenvalue": 60749.80554787154,
+      "projected_residual": 4.579487752874313e-09,
+      "original_residual": 6.452509972998917e-09,
+      "history": []
+    },
+    {
+      "component": 11,
+      "iterations": 1000,
+      "eigenvalue": 58946.52917065563,
+      "projected_residual": 4.625523463142898e-09,
+      "original_residual": 6.507207099158365e-09,
+      "history": []
+    },
+    {
+      "component": 12,
+      "iterations": 346,
+      "eigenvalue": 57533.27194012969,
+      "projected_residual": 4.48128087776171e-09,
+      "original_residual": 6.444637810589389e-09,
+      "history": []
+    },
+    {
+      "component": 13,
+      "iterations": 422,
+      "eigenvalue": 53282.16684997824,
+      "projected_residual": 4.510089094114703e-09,
+      "original_residual": 6.360418360538758e-09,
+      "history": []
+    },
+    {
+      "component": 14,
+      "iterations": 266,
+      "eigenvalue": 49826.13088410665,
+      "projected_residual": 4.636183206128788e-09,
+      "original_residual": 6.4662834588183285e-09,
+      "history": []
+    },
+    {
+      "component": 15,
+      "iterations": 1750,
+      "eigenvalue": 44715.1302622077,
+      "projected_residual": 4.58689681265648e-09,
+      "original_residual": 6.523189563752585e-09,
+      "history": []
+    },
+    {
+      "component": 16,
+      "iterations": 491,
+      "eigenvalue": 44035.27896575078,
+      "projected_residual": 4.4629332763264385e-09,
+      "original_residual": 6.401176856400461e-09,
+      "history": []
+    },
+    {
+      "component": 17,
+      "iterations": 680,
+      "eigenvalue": 41533.48512114787,
+      "projected_residual": 4.629981592898981e-09,
+      "original_residual": 6.430410322528843e-09,
+      "history": []
+    },
+    {
+      "component": 18,
+      "iterations": 4156,
+      "eigenvalue": 39932.122229237706,
+      "projected_residual": 4.620723523641801e-09,
+      "original_residual": 6.534753351737606e-09,
+      "history": []
+    },
+    {
+      "component": 19,
+      "iterations": 550,
+      "eigenvalue": 39693.344877728436,
+      "projected_residual": 4.484721835192233e-09,
+      "original_residual": 6.4481407917133165e-09,
+      "history": []
+    },
+    {
+      "component": 20,
+      "iterations": 583,
+      "eigenvalue": 37736.94663961786,
+      "projected_residual": 4.5005620616790775e-09,
+      "original_residual": 6.35559833851856e-09,
+      "history": []
+    },
+    {
+      "component": 21,
+      "iterations": 1129,
+      "eigenvalue": 36086.486186738795,
+      "projected_residual": 4.580733253502911e-09,
+      "original_residual": 6.423484286997173e-09,
+      "history": []
+    },
+    {
+      "component": 22,
+      "iterations": 964,
+      "eigenvalue": 35281.74788969879,
+      "projected_residual": 4.537674836932392e-09,
+      "original_residual": 6.445611519227133e-09,
+      "history": []
+    },
+    {
+      "component": 23,
+      "iterations": 772,
+      "eigenvalue": 34322.55115200863,
+      "projected_residual": 4.628844400193728e-09,
+      "original_residual": 6.47835065789375e-09,
+      "history": []
+    },
+    {
+      "component": 24,
+      "iterations": 785,
+      "eigenvalue": 33126.590934987675,
+      "projected_residual": 4.582222616021824e-09,
+      "original_residual": 6.512686019715624e-09,
+      "history": []
+    },
+    {
+      "component": 25,
+      "iterations": 1419,
+      "eigenvalue": 32068.348821091797,
+      "projected_residual": 4.586802788705702e-09,
+      "original_residual": 6.4851539319115065e-09,
+      "history": []
+    },
+    {
+      "component": 26,
+      "iterations": 2369,
+      "eigenvalue": 31428.56644994907,
+      "projected_residual": 4.636533883096228e-09,
+      "original_residual": 6.5226188676090565e-09,
+      "history": []
+    },
+    {
+      "component": 27,
+      "iterations": 1330,
+      "eigenvalue": 31096.524570128306,
+      "projected_residual": 4.610997573381456e-09,
+      "original_residual": 6.539283610793605e-09,
+      "history": []
+    },
+    {
+      "component": 28,
+      "iterations": 2680,
+      "eigenvalue": 30505.910995748993,
+      "projected_residual": 4.615164222926988e-09,
+      "original_residual": 6.523601647978634e-09,
+      "history": []
+    },
+    {
+      "component": 29,
+      "iterations": 1154,
+      "eigenvalue": 30210.927905789405,
+      "projected_residual": 4.638473240221101e-09,
+      "original_residual": 6.542514426427785e-09,
+      "history": []
+    },
+    {
+      "component": 30,
+      "iterations": 789,
+      "eigenvalue": 29528.233077743935,
+      "projected_residual": 4.516312049587218e-09,
+      "original_residual": 6.472809413170629e-09,
+      "history": []
+    },
+    {
+      "component": 31,
+      "iterations": 2015,
+      "eigenvalue": 28593.75569453109,
+      "projected_residual": 4.632093800658366e-09,
+      "original_residual": 6.468713910782821e-09,
+      "history": []
+    },
+    {
+      "component": 32,
+      "iterations": 572,
+      "eigenvalue": 28224.329435303505,
+      "projected_residual": 4.56887560916575e-09,
+      "original_residual": 6.506891304304321e-09,
+      "history": []
+    },
+    {
+      "component": 33,
+      "iterations": 2843,
+      "eigenvalue": 26930.77486972241,
+      "projected_residual": 4.637335555967489e-09,
+      "original_residual": 6.50878320202888e-09,
+      "history": []
+    },
+    {
+      "component": 34,
+      "iterations": 934,
+      "eigenvalue": 26737.158986934817,
+      "projected_residual": 4.64619765103045e-09,
+      "original_residual": 6.565386100825939e-09,
+      "history": []
+    },
+    {
+      "component": 35,
+      "iterations": 1844,
+      "eigenvalue": 25958.39502223213,
+      "projected_residual": 4.613553468169586e-09,
+      "original_residual": 6.544944267059845e-09,
+      "history": []
+    },
+    {
+      "component": 36,
+      "iterations": 1997,
+      "eigenvalue": 25628.89792359681,
+      "projected_residual": 4.633408285068302e-09,
+      "original_residual": 6.536908792582775e-09,
+      "history": []
+    },
+    {
+      "component": 37,
+      "iterations": 841,
+      "eigenvalue": 25290.545986388428,
+      "projected_residual": 4.585555257775233e-09,
+      "original_residual": 6.521491812303542e-09,
+      "history": []
+    },
+    {
+      "component": 38,
+      "iterations": 2935,
+      "eigenvalue": 24532.140433338252,
+      "projected_residual": 4.642436932292063e-09,
+      "original_residual": 6.529546250080902e-09,
+      "history": []
+    },
+    {
+      "component": 39,
+      "iterations": 1452,
+      "eigenvalue": 24326.20268549556,
+      "projected_residual": 4.634351831983511e-09,
+      "original_residual": 6.562544976420782e-09,
+      "history": []
+    },
+    {
+      "component": 40,
+      "iterations": 5721,
+      "eigenvalue": 23810.04555144171,
+      "projected_residual": 4.63982603911456e-09,
+      "original_residual": 6.5575901410238115e-09,
+      "history": []
+    },
+    {
+      "component": 41,
+      "iterations": 850,
+      "eigenvalue": 23705.11259603619,
+      "projected_residual": 4.545745087766601e-09,
+      "original_residual": 6.494501528374125e-09,
+      "history": []
+    },
+    {
+      "component": 42,
+      "iterations": 599,
+      "eigenvalue": 23055.11930155137,
+      "projected_residual": 4.586084175860834e-09,
+      "original_residual": 6.455787300051929e-09,
+      "history": []
+    },
+    {
+      "component": 43,
+      "iterations": 7423,
+      "eigenvalue": 22157.945003174565,
+      "projected_residual": 4.636382925479055e-09,
+      "original_residual": 6.48784605030711e-09,
+      "history": []
+    },
+    {
+      "component": 44,
+      "iterations": 653,
+      "eigenvalue": 22081.208657307463,
+      "projected_residual": 4.602892238186298e-09,
+      "original_residual": 6.564940015185637e-09,
+      "history": []
+    },
+    {
+      "component": 45,
+      "iterations": 1347,
+      "eigenvalue": 21213.751583872538,
+      "projected_residual": 4.641618312695651e-09,
+      "original_residual": 6.5364500041780216e-09,
+      "history": []
+    },
+    {
+      "component": 46,
+      "iterations": 1638,
+      "eigenvalue": 20853.34133763481,
+      "projected_residual": 4.605319890913009e-09,
+      "original_residual": 6.538149233561932e-09,
+      "history": []
+    },
+    {
+      "component": 47,
+      "iterations": 1653,
+      "eigenvalue": 20518.204855265365,
+      "projected_residual": 4.608151186885226e-09,
+      "original_residual": 6.5140671868197095e-09,
+      "history": []
+    },
+    {
+      "component": 48,
+      "iterations": 1330,
+      "eigenvalue": 20216.19159731428,
+      "projected_residual": 4.642244314089873e-09,
+      "original_residual": 6.541018588562848e-09,
+      "history": []
+    },
+    {
+      "component": 49,
+      "iterations": 791,
+      "eigenvalue": 19825.9233341537,
+      "projected_residual": 4.594768648302968e-09,
+      "original_residual": 6.532481712599175e-09,
+      "history": []
+    },
+    {
+      "component": 50,
+      "iterations": 1129,
+      "eigenvalue": 19185.6504588478,
+      "projected_residual": 4.549581170176081e-09,
+      "original_residual": 6.465546756693746e-09,
+      "history": []
+    },
+    {
+      "component": 51,
+      "iterations": 3469,
+      "eigenvalue": 18747.168446695898,
+      "projected_residual": 4.639271021581769e-09,
+      "original_residual": 6.497730491997044e-09,
+      "history": []
+    },
+    {
+      "component": 52,
+      "iterations": 1183,
+      "eigenvalue": 18617.629283833892,
+      "projected_residual": 4.595739804029388e-09,
+      "original_residual": 6.529946043863622e-09,
+      "history": []
+    },
+    {
+      "component": 53,
+      "iterations": 2542,
+      "eigenvalue": 18265.34514591258,
+      "projected_residual": 4.619534141670645e-09,
+      "original_residual": 6.515155276480897e-09,
+      "history": []
+    },
+    {
+      "component": 54,
+      "iterations": 2659,
+      "eigenvalue": 18095.515021989966,
+      "projected_residual": 4.606274933272198e-09,
+      "original_residual": 6.523842267186363e-09,
+      "history": []
+    },
+    {
+      "component": 55,
+      "iterations": 1332,
+      "eigenvalue": 17929.298332524017,
+      "projected_residual": 4.589865537850457e-09,
+      "original_residual": 6.502645899859453e-09,
+      "history": []
+    },
+    {
+      "component": 56,
+      "iterations": 1166,
+      "eigenvalue": 17609.325678001285,
+      "projected_residual": 4.6410581238782686e-09,
+      "original_residual": 6.52840240295338e-09,
+      "history": []
+    },
+    {
+      "component": 57,
+      "iterations": 1359,
+      "eigenvalue": 17244.353424338515,
+      "projected_residual": 4.569879942067854e-09,
+      "original_residual": 6.514255858401613e-09,
+      "history": []
+    },
+    {
+      "component": 58,
+      "iterations": 4473,
+      "eigenvalue": 16932.07530687035,
+      "projected_residual": 4.624577083011504e-09,
+      "original_residual": 6.501362528964073e-09,
+      "history": []
+    },
+    {
+      "component": 59,
+      "iterations": 1108,
+      "eigenvalue": 16834.633369594216,
+      "projected_residual": 4.565997411448098e-09,
+      "original_residual": 6.49929438795699e-09,
+      "history": []
+    },
+    {
+      "component": 60,
+      "iterations": 882,
+      "eigenvalue": 16457.498166614736,
+      "projected_residual": 4.60002021828176e-09,
+      "original_residual": 6.481813376204155e-09,
+      "history": []
+    },
+    {
+      "component": 61,
+      "iterations": 1276,
+      "eigenvalue": 16048.37114787741,
+      "projected_residual": 4.576356753843435e-09,
+      "original_residual": 6.4900344118325506e-09,
+      "history": []
+    },
+    {
+      "component": 62,
+      "iterations": 942,
+      "eigenvalue": 15730.503346918422,
+      "projected_residual": 4.545217571272504e-09,
+      "original_residual": 6.451341103146968e-09,
+      "history": []
+    },
+    {
+      "component": 63,
+      "iterations": 1299,
+      "eigenvalue": 15352.081538475857,
+      "projected_residual": 4.5613849561858325e-09,
+      "original_residual": 6.438793131254579e-09,
+      "history": []
+    },
+    {
+      "component": 64,
+      "iterations": 832,
+      "eigenvalue": 15062.572522120798,
+      "projected_residual": 4.556823159858506e-09,
+      "original_residual": 6.445525135741201e-09,
+      "history": []
+    },
+    {
+      "component": 65,
+      "iterations": 1114,
+      "eigenvalue": 14634.847338946722,
+      "projected_residual": 4.637552460854089e-09,
+      "original_residual": 6.502134351590491e-09,
+      "history": []
+    },
+    {
+      "component": 66,
+      "iterations": 22702,
+      "eigenvalue": 14309.772638231752,
+      "projected_residual": 4.646151865139389e-09,
+      "original_residual": 5.045763308013369e-09,
+      "history": []
+    },
+    {
+      "component": 67,
+      "iterations": 847,
+      "eigenvalue": 14296.126471898675,
+      "projected_residual": 4.568424694872869e-09,
+      "original_residual": 7.752738440824041e-09,
+      "history": []
+    },
+    {
+      "component": 68,
+      "iterations": 1061,
+      "eigenvalue": 13873.234270635709,
+      "projected_residual": 4.562263252228794e-09,
+      "original_residual": 6.457471105325971e-09,
+      "history": []
+    },
+    {
+      "component": 69,
+      "iterations": 3273,
+      "eigenvalue": 13558.85665963263,
+      "projected_residual": 4.635036925421057e-09,
+      "original_residual": 6.503836874782951e-09,
+      "history": []
+    },
+    {
+      "component": 70,
+      "iterations": 1514,
+      "eigenvalue": 13452.014231065554,
+      "projected_residual": 4.61381923456429e-09,
+      "original_residual": 6.5406854531793285e-09,
+      "history": []
+    },
+    {
+      "component": 71,
+      "iterations": 1118,
+      "eigenvalue": 13228.634455844498,
+      "projected_residual": 4.637581703327192e-09,
+      "original_residual": 6.542309902063171e-09,
+      "history": []
+    },
+    {
+      "component": 72,
+      "iterations": 1466,
+      "eigenvalue": 12940.669573691815,
+      "projected_residual": 4.614692778840724e-09,
+      "original_residual": 6.5423749256760365e-09,
+      "history": []
+    },
+    {
+      "component": 73,
+      "iterations": 1658,
+      "eigenvalue": 12742.06259974924,
+      "projected_residual": 4.631738370015259e-09,
+      "original_residual": 6.538747712379745e-09,
+      "history": []
+    },
+    {
+      "component": 74,
+      "iterations": 1433,
+      "eigenvalue": 12566.000814332538,
+      "projected_residual": 4.623540473689243e-09,
+      "original_residual": 6.544997756681257e-09,
+      "history": []
+    },
+    {
+      "component": 75,
+      "iterations": 17386,
+      "eigenvalue": 12377.464343303804,
+      "projected_residual": 4.643524248496066e-09,
+      "original_residual": 5.578451490302559e-09,
+      "history": []
+    },
+    {
+      "component": 76,
+      "iterations": 681,
+      "eigenvalue": 12360.95169722734,
+      "projected_residual": 4.55089420746784e-09,
+      "original_residual": 7.357124522762743e-09,
+      "history": []
+    },
+    {
+      "component": 77,
+      "iterations": 1353,
+      "eigenvalue": 11970.850539261743,
+      "projected_residual": 4.584698058887316e-09,
+      "original_residual": 6.4599117774396195e-09,
+      "history": []
+    },
+    {
+      "component": 78,
+      "iterations": 1260,
+      "eigenvalue": 11767.863555082411,
+      "projected_residual": 4.628141775754641e-09,
+      "original_residual": 6.5145160332893365e-09,
+      "history": []
+    },
+    {
+      "component": 79,
+      "iterations": 1513,
+      "eigenvalue": 11518.274612115114,
+      "projected_residual": 4.591302041530577e-09,
+      "original_residual": 6.518919651007753e-09,
+      "history": []
+    },
+    {
+      "component": 80,
+      "iterations": 2261,
+      "eigenvalue": 11335.663711668929,
+      "projected_residual": 4.6179780482833355e-09,
+      "original_residual": 6.51227630921894e-09,
+      "history": []
+    },
+    {
+      "component": 81,
+      "iterations": 1711,
+      "eigenvalue": 11209.959145706198,
+      "projected_residual": 4.626185828054577e-09,
+      "original_residual": 6.535568596188576e-09,
+      "history": []
+    },
+    {
+      "component": 82,
+      "iterations": 1780,
+      "eigenvalue": 11055.538403814055,
+      "projected_residual": 4.61846346499258e-09,
+      "original_residual": 6.53508044599764e-09,
+      "history": []
+    },
+    {
+      "component": 83,
+      "iterations": 823,
+      "eigenvalue": 10903.071843332538,
+      "projected_residual": 4.648466937009109e-09,
+      "original_residual": 6.552253339909065e-09,
+      "history": []
+    },
+    {
+      "component": 84,
+      "iterations": 2878,
+      "eigenvalue": 10554.7175665123,
+      "projected_residual": 4.627142523025231e-09,
+      "original_residual": 6.560155118399801e-09,
+      "history": []
+    },
+    {
+      "component": 85,
+      "iterations": 1094,
+      "eigenvalue": 10472.866665221725,
+      "projected_residual": 4.582303248084375e-09,
+      "original_residual": 6.5143349501988225e-09,
+      "history": []
+    },
+    {
+      "component": 86,
+      "iterations": 1185,
+      "eigenvalue": 10231.879891923309,
+      "projected_residual": 4.599528444553184e-09,
+      "original_residual": 6.492670112236052e-09,
+      "history": []
+    },
+    {
+      "component": 87,
+      "iterations": 3563,
+      "eigenvalue": 10014.389283350763,
+      "projected_residual": 4.6284980702423744e-09,
+      "original_residual": 6.524420635302048e-09,
+      "history": []
+    },
+    {
+      "component": 88,
+      "iterations": 2223,
+      "eigenvalue": 9949.475812430974,
+      "projected_residual": 4.623147202112209e-09,
+      "original_residual": 6.541102359287139e-09,
+      "history": []
+    },
+    {
+      "component": 89,
+      "iterations": 1801,
+      "eigenvalue": 9836.005195236618,
+      "projected_residual": 4.596042815579236e-09,
+      "original_residual": 6.518654011023821e-09,
+      "history": []
+    },
+    {
+      "component": 90,
+      "iterations": 796,
+      "eigenvalue": 9712.78491684709,
+      "projected_residual": 4.542714220163864e-09,
+      "original_residual": 6.462199940310297e-09,
+      "history": []
+    },
+    {
+      "component": 91,
+      "iterations": 1220,
+      "eigenvalue": 9421.31563825385,
+      "projected_residual": 4.609624574676855e-09,
+      "original_residual": 6.47078721297471e-09,
+      "history": []
+    },
+    {
+      "component": 92,
+      "iterations": 2597,
+      "eigenvalue": 9223.056364572469,
+      "projected_residual": 4.611932546042242e-09,
+      "original_residual": 6.520106121484911e-09,
+      "history": []
+    },
+    {
+      "component": 93,
+      "iterations": 1023,
+      "eigenvalue": 9138.619071079858,
+      "projected_residual": 4.568323800280484e-09,
+      "original_residual": 6.492669388677257e-09,
+      "history": []
+    },
+    {
+      "component": 94,
+      "iterations": 1931,
+      "eigenvalue": 8917.28980304478,
+      "projected_residual": 4.58792043569075e-09,
+      "original_residual": 6.474378187298922e-09,
+      "history": []
+    },
+    {
+      "component": 95,
+      "iterations": 2383,
+      "eigenvalue": 8763.015226076986,
+      "projected_residual": 4.633152592565927e-09,
+      "original_residual": 6.5199989350373966e-09,
+      "history": []
+    },
+    {
+      "component": 96,
+      "iterations": 1997,
+      "eigenvalue": 8679.3907488401,
+      "projected_residual": 4.613145813935785e-09,
+      "original_residual": 6.5376109937841956e-09,
+      "history": []
+    },
+    {
+      "component": 97,
+      "iterations": 1969,
+      "eigenvalue": 8576.379136115958,
+      "projected_residual": 4.62874637747927e-09,
+      "original_residual": 6.534085504752438e-09,
+      "history": []
+    },
+    {
+      "component": 98,
+      "iterations": 2190,
+      "eigenvalue": 8488.573396288593,
+      "projected_residual": 4.626038878819851e-09,
+      "original_residual": 6.542555292516084e-09,
+      "history": []
+    },
+    {
+      "component": 99,
+      "iterations": 1792,
+      "eigenvalue": 8398.353306052157,
+      "projected_residual": 4.6253504172513696e-09,
+      "original_residual": 6.540540574969403e-09,
+      "history": []
+    },
+    {
+      "component": 100,
+      "iterations": 1662,
+      "eigenvalue": 8276.506557681503,
+      "projected_residual": 4.6483989314915206e-09,
+      "original_residual": 6.5577039801973365e-09,
+      "history": []
+    },
+    {
+      "component": 101,
+      "iterations": 1693,
+      "eigenvalue": 8153.556690312796,
+      "projected_residual": 4.613422500411217e-09,
+      "original_residual": 6.548959014280811e-09,
+      "history": []
+    },
+    {
+      "component": 102,
+      "iterations": 460,
+      "eigenvalue": 8038.4887775864445,
+      "projected_residual": 4.629510450277857e-09,
+      "original_residual": 6.535244451401022e-09,
+      "history": []
+    },
+    {
+      "component": 103,
+      "iterations": 1872,
+      "eigenvalue": 7648.505949995969,
+      "projected_residual": 4.6425547193187305e-09,
+      "original_residual": 6.430606670648312e-09,
+      "history": []
+    },
+    {
+      "component": 104,
+      "iterations": 939,
+      "eigenvalue": 7554.948542243998,
+      "projected_residual": 4.591057186901613e-09,
+      "original_residual": 6.653376402531972e-09,
+      "history": []
+    },
+    {
+      "component": 105,
+      "iterations": 995,
+      "eigenvalue": 7366.953960917965,
+      "projected_residual": 4.614184097308169e-09,
+      "original_residual": 6.509330362634697e-09,
+      "history": []
+    },
+    {
+      "component": 106,
+      "iterations": 2204,
+      "eigenvalue": 7183.174971330995,
+      "projected_residual": 4.597223146810079e-09,
+      "original_residual": 6.5137953012491235e-09,
+      "history": []
+    },
+    {
+      "component": 107,
+      "iterations": 1264,
+      "eigenvalue": 7101.553444059622,
+      "projected_residual": 4.646772589309788e-09,
+      "original_residual": 6.536544583456144e-09,
+      "history": []
+    },
+    {
+      "component": 108,
+      "iterations": 3408,
+      "eigenvalue": 6964.098929367776,
+      "projected_residual": 4.629869097675762e-09,
+      "original_residual": 6.558639683818189e-09,
+      "history": []
+    },
+    {
+      "component": 109,
+      "iterations": 5217,
+      "eigenvalue": 6913.557959745453,
+      "projected_residual": 4.641439078939321e-09,
+      "original_residual": 6.555027360926638e-09,
+      "history": []
+    },
+    {
+      "component": 110,
+      "iterations": 1669,
+      "eigenvalue": 6887.579061935547,
+      "projected_residual": 4.6210670299967184e-09,
+      "original_residual": 6.5487824918627685e-09,
+      "history": []
+    },
+    {
+      "component": 111,
+      "iterations": 2793,
+      "eigenvalue": 6776.420253901113,
+      "projected_residual": 4.625534787969062e-09,
+      "original_residual": 6.537693857488265e-09,
+      "history": []
+    },
+    {
+      "component": 112,
+      "iterations": 3899,
+      "eigenvalue": 6721.349883739207,
+      "projected_residual": 4.637040952794757e-09,
+      "original_residual": 6.550052142174559e-09,
+      "history": []
+    },
+    {
+      "component": 113,
+      "iterations": 2136,
+      "eigenvalue": 6678.624360875532,
+      "projected_residual": 4.6246506967731465e-09,
+      "original_residual": 6.549548221276094e-09,
+      "history": []
+    },
+    {
+      "component": 114,
+      "iterations": 1594,
+      "eigenvalue": 6595.924256610288,
+      "projected_residual": 4.638773858762902e-09,
+      "original_residual": 6.550817882080985e-09,
+      "history": []
+    },
+    {
+      "component": 115,
+      "iterations": 2110,
+      "eigenvalue": 6505.486681826891,
+      "projected_residual": 4.643882555351967e-09,
+      "original_residual": 6.5637107775516e-09,
+      "history": []
+    },
+    {
+      "component": 116,
+      "iterations": 3023,
+      "eigenvalue": 6432.690648378975,
+      "projected_residual": 4.6439265436461675e-09,
+      "original_residual": 6.56693747196564e-09,
+      "history": []
+    },
+    {
+      "component": 117,
+      "iterations": 2674,
+      "eigenvalue": 6383.111127027816,
+      "projected_residual": 4.645065185353392e-09,
+      "original_residual": 6.567887220021876e-09,
+      "history": []
+    },
+    {
+      "component": 118,
+      "iterations": 1044,
+      "eigenvalue": 6330.945800538474,
+      "projected_residual": 4.586523269464944e-09,
+      "original_residual": 6.527799508718718e-09,
+      "history": []
+    },
+    {
+      "component": 119,
+      "iterations": 1961,
+      "eigenvalue": 6185.76564371702,
+      "projected_residual": 4.618169486494324e-09,
+      "original_residual": 6.508381779482364e-09,
+      "history": []
+    },
+    {
+      "component": 120,
+      "iterations": 2222,
+      "eigenvalue": 6116.225690620751,
+      "projected_residual": 4.634621749903942e-09,
+      "original_residual": 6.542401935451649e-09,
+      "history": []
+    },
+    {
+      "component": 121,
+      "iterations": 2169,
+      "eigenvalue": 6057.452004862706,
+      "projected_residual": 4.641338539501295e-09,
+      "original_residual": 6.558795862731792e-09,
+      "history": []
+    },
+    {
+      "component": 122,
+      "iterations": 9606,
+      "eigenvalue": 5993.417918728173,
+      "projected_residual": 4.640603743390017e-09,
+      "original_residual": 6.557675309297407e-09,
+      "history": []
+    },
+    {
+      "component": 123,
+      "iterations": 2426,
+      "eigenvalue": 5980.054396012173,
+      "projected_residual": 4.611223025131682e-09,
+      "original_residual": 6.548043522180509e-09,
+      "history": []
+    },
+    {
+      "component": 124,
+      "iterations": 3159,
+      "eigenvalue": 5918.59527961126,
+      "projected_residual": 4.646586829841536e-09,
+      "original_residual": 6.5462900256613935e-09,
+      "history": []
+    },
+    {
+      "component": 125,
+      "iterations": 2518,
+      "eigenvalue": 5869.898484316054,
+      "projected_residual": 4.617995674730052e-09,
+      "original_residual": 6.5509237938780346e-09,
+      "history": []
+    },
+    {
+      "component": 126,
+      "iterations": 2233,
+      "eigenvalue": 5819.53576037811,
+      "projected_residual": 4.6478662161182446e-09,
+      "original_residual": 6.5522627156005435e-09,
+      "history": []
+    },
+    {
+      "component": 127,
+      "iterations": 2772,
+      "eigenvalue": 5756.636945614537,
+      "projected_residual": 4.645775422097817e-09,
+      "original_residual": 6.572244924860062e-09,
+      "history": []
+    },
+    {
+      "component": 128,
+      "iterations": 2175,
+      "eigenvalue": 5710.726900972295,
+      "projected_residual": 4.624486213025627e-09,
+      "original_residual": 6.554828460525784e-09,
+      "history": []
+    },
+    {
+      "component": 129,
+      "iterations": 2642,
+      "eigenvalue": 5648.35736206188,
+      "projected_residual": 4.628936562913228e-09,
+      "original_residual": 6.543451856736368e-09,
+      "history": []
+    },
+    {
+      "component": 130,
+      "iterations": 1902,
+      "eigenvalue": 5596.082357198478,
+      "projected_residual": 4.609681635428869e-09,
+      "original_residual": 6.53260892880343e-09,
+      "history": []
+    },
+    {
+      "component": 131,
+      "iterations": 2455,
+      "eigenvalue": 5535.96710131942,
+      "projected_residual": 4.6399358182490055e-09,
+      "original_residual": 6.53993501366402e-09,
+      "history": []
+    },
+    {
+      "component": 132,
+      "iterations": 1715,
+      "eigenvalue": 5491.168019280477,
+      "projected_residual": 4.5896872559286835e-09,
+      "original_residual": 6.5267775423556465e-09,
+      "history": []
+    },
+    {
+      "component": 133,
+      "iterations": 1005,
+      "eigenvalue": 5420.005751416118,
+      "projected_residual": 4.556308889901185e-09,
+      "original_residual": 6.4672710978395636e-09,
+      "history": []
+    },
+    {
+      "component": 134,
+      "iterations": 1853,
+      "eigenvalue": 5301.050482594501,
+      "projected_residual": 4.613236937997115e-09,
+      "original_residual": 6.483771045113009e-09,
+      "history": []
+    },
+    {
+      "component": 135,
+      "iterations": 2045,
+      "eigenvalue": 5236.714790091168,
+      "projected_residual": 4.63360160520818e-09,
+      "original_residual": 6.539169109843472e-09,
+      "history": []
+    },
+    {
+      "component": 136,
+      "iterations": 2009,
+      "eigenvalue": 5183.602992692527,
+      "projected_residual": 4.632804323030626e-09,
+      "original_residual": 6.552865845004546e-09,
+      "history": []
+    },
+    {
+      "component": 137,
+      "iterations": 2351,
+      "eigenvalue": 5127.088043148589,
+      "projected_residual": 4.609923890589353e-09,
+      "original_residual": 6.5351571896031585e-09,
+      "history": []
+    }
+  ],
+  "iterations_total": 277376
+}

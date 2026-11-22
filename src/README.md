@@ -2,6 +2,22 @@
 
 Run scripts from the repository root using the pinned Python environment.
 
+Iteration 3 entry points and shared modules:
+
+| File | Purpose |
+| --- | --- |
+| `methods.py` | NumPy-only `my_` functions, equations E1-E14, power iteration and deflation |
+| `simulate.py` | Reusable generator preserving the exact original draw order |
+| `small_example.py` | Four terms, three documents, every intermediate and an independent check |
+| `check_simulation.py` | Truth/library checks, three sizes, sampling-error plot and topic-overlap stress |
+| `preprocess_text.py` | Rebuild fixed sample from manifest and save character/jieba tokens |
+| `run_real.py` | Both tokenizations, energy-selected rank, top-five query results and audits |
+| `verification_helpers.py` | Library checks, common comparison log and evidence paths |
+| `verify_iteration3.py` | Tall/wide/rank-deficient/repeated/invalid/nonconvergent cases |
+| `build_iteration3_report.py` | Evidence-to-LaTeX tables, XeLaTeX build and Overleaf ZIP |
+
+For reproducibility, run the three required entry points in the order shown in the root README. Library solvers are confined to comparison code. The report builder runs after all result scripts. The code below remains the Iteration 2 implementation and reproduction path.
+
 | File | Purpose |
 | --- | --- |
 | `download_data.py` | Acquire 1,000 records per category from a pinned mirror revision and record provenance |

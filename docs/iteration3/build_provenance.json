@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-21",
+  "pdf_pages": 18,
+  "deterministic_checks_passed": 154,
+  "source_zip_compiles_independently": true,
+  "source_zip_render_matches_local_pdf_all_pages": true,
+  "visual_review": "All 18 pages; PDFium used for embedded CJK fonts; no overfull boxes or missing glyph warnings",
+  "overleaf_export": false,
+  "artifacts": {
+    "docs/iteration3_report.pdf": {
+      "sha256": "3f8874ce34276dcc58d3d34568d8ffb9bb8f423758b782f78482ffc4fb1774ea",
+      "bytes": 483810
+    },
+    "docs/iteration3_overleaf.zip": {
+      "sha256": "32b6302cb5c8de2d6790f52a589140e72bffeef9edcf2ab23b512b1ec90320c5",
+      "bytes": 278480
+    }
+  }
+}

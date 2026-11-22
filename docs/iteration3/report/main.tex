@@ -1,0 +1,134 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[UTF8,fontset=fandol]{ctex}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,needspace}
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\abstractname}{Abstract}
+\renewcommand{\tablename}{Table}
+\renewcommand{\figurename}{Figure}
+\renewcommand{\refname}{References}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{8pt}
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\arraystretch}{1.15}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\resultspath}{../results}
+\graphicspath{{../../../figures/iteration3/}{figures/}}
+\input{\resultspath/macros.tex}
+\title{Finding Similar Mandarin Texts\\Using Linear Algebra\\[6pt]
+\large Iteration 3: Worked Example, Implementation and Verification}
+\author{James Cottrell\\DS5020 Intro Linear Algebra \& Probability}
+\date{November 21, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+This iteration implements TF-IDF, cosine similarity and SVD by power iteration
+with deflation using basic NumPy operations. It verifies a four-term worked
+example, preserves the Iteration 2 two-topic simulation, and compares character
+and jieba word representations of the same 300 Mandarin news documents.
+The 90\%-energy rule selects \CharRank{} character directions and \WordRank{}
+word directions. All \VerificationCount{} recorded deterministic checks pass.
+The largest singular-value difference against NumPy is \MaxSigmaError{};
+the largest reduced-cosine difference against a library SVD is \MaxCosineError.
+Topic separation increases after reduction, but nearest-topic accuracy and
+individual query rankings do not consistently improve. Numerical correctness
+and semantic usefulness therefore require separate evaluation.
+\end{abstract}
+
+\section{Scope, continuity and ownership}
+The question is how truncated SVD changes topical similarity between Mandarin
+texts. This connects the project to my computer science and linguistics background.
+The Iteration 2 dataset, document IDs, TF-IDF formula and seed-0 simulation are
+preserved. Its Jacobi eigensolver is retained as prior work; this iteration uses
+the newly required power-iteration/deflation method. Word segmentation, three
+simulation sizes and an overlap stress test are additions required by the new
+handout. They are identified explicitly below.
+
+Student owner and solo project lead: James Cottrell. Preparation of code,
+experiments and exposition used AI assistance. Student review and the ability
+to explain the work remain James's responsibility. The handout's rotating-leader
+and second-person-checker wording has no clarified solo convention. No second
+student, checker signature or instructor approval is claimed. Computational
+verification is documented independently of that unresolved human convention.
+
+\section{Notation and conventions}
+\begin{center}\small
+\begin{tabular}{p{.22\textwidth}p{.47\textwidth}p{.22\textwidth}}
+\toprule Symbol & Meaning & Size/domain\\\midrule
+$m,n,k$ & Terms, documents, retained rank & Positive integers\\
+$C,A$ & Count and TF-IDF matrices; terms in rows & $m\times n$\\
+$df_t,w_t,q$ & Document frequency, fitted IDF, query & Scalars; $q\in\R^m$\\
+$G,p$ & Smaller Gram matrix and its dimension & $p\times p$, $p=\min(m,n)$\\
+$U_k,\Sigma_k,V_k$ & Retained SVD factors, $\Sigma_k=\mathrm{diag}(\sigma_i)$ & $m\times k,\ k\times k,\ n\times k$\\
+$D,z,\widehat q$ & Document rows, projected query, folded query & $n\times k,\ k,\ k$\\
+$Q,P,G_i$ & Found Gram directions, complementary projector, deflated Gram & $p\times i,\ p\times p,\ p\times p$\\
+$h,\theta_h,L$ & Simulated topic, term distribution, document length & $h\in\{0,1\}$, $\theta_h\in[0,1]^{50}$, $L=60$\\
+$p_h,N_h,\widehat p_h$ & First-half token probability, token count, estimate & Scalars\\
+\bottomrule
+\end{tabular}\end{center}
+For vectors, $\|x\|_2=\sqrt{\sum_i x_i^2}$; for matrices,
+$\|A\|_F^2=\sum_{t,j}A_{tj}^2$. No centering, smoothing, stopword list or
+document-length normalization is applied before SVD. Cosines normalize
+individual vectors at comparison time. This is an uncentered text
+representation, not centered PCA.
+
+\input{math.tex}
+\input{experiments.tex}
+
+\section{Reproduction and progress}
+Run from the repository root with the pinned Python environment:
+\begin{verbatim}
+python src/download_data.py     # only if raw prefixes are absent
+python src/small_example.py
+python src/verify_iteration3.py
+python src/check_simulation.py
+python src/run_real.py
+python src/build_iteration3_report.py
+\end{verbatim}
+The final build needs XeLaTeX, including \texttt{ctex}/Fandol for Chinese.
+The Overleaf package uses XeLaTeX as well. The environment record and
+lock file specify package versions.
+Method code and generated evidence are complete locally. The existing
+Excel plan records actual task status and assisted preparation.
+Student review, explanation and the unresolved solo-checker convention
+are kept separate from numerical checks. No claim of a completed
+course submission or independent-person sign-off is made.
+
+\begin{thebibliography}{9}
+\bibitem{handout} F. Nafa. DS5020 Final Project, Iteration 3, Fall 2026.
+General instructions pp.\ 1--4; Mandarin text similarity pp.\ 16--17.
+\bibitem{prior} J. Cottrell. Finding Similar Mandarin Texts Using Linear
+Algebra, Iteration 2. Local report and accompanying code, November 2026.
+\bibitem{data} Tongjilibo. THUCNews mirror.
+\href{https://huggingface.co/datasets/Tongjilibo/THUCNews}{Dataset repository}.
+Pinned source revision and hashes: \path{data/source_manifest.json}.
+\bibitem{jieba} fxsjy. jieba: Chinese word segmentation.
+\href{https://github.com/fxsjy/jieba}{Project documentation}. Version 0.42.1.
+\bibitem{numpy} NumPy. \texttt{numpy.linalg.svd}.
+\href{https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html}{NumPy SVD reference}.
+Library comparison only.
+\bibitem{sklearn} scikit-learn. \path{cosine_similarity}.
+\href{https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html}{Cosine similarity reference}.
+Library comparison only.
+\end{thebibliography}
+\clearpage
+\appendix
+\section{Every numerical matrix in the worked example}
+Values below are emitted by \path{small_example.py} and converted
+to this appendix by the report builder. Printed precision is nine
+decimal places. Analytic expressions in Q1 distinguish exact zeros
+from small floating-point residuals. $G^{(1)}$ is the Gram matrix
+after deflating its first direction.
+\input{\resultspath/tiny_matrices.tex}
+\clearpage
+\section{Complete tiny-example power trace}
+The residual is the projected deflated-Gram eigen-residual.
+Eigenvector signs may differ from the analytic choices in Q1.
+Each step is normalized; final factors use a canonical sign.
+The second direction needs only one multiplication after the first
+direction is deflated. The exact null direction is stated in Q1.
+\input{\resultspath/tiny_trace.tex}
+\end{document}

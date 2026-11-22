@@ -1,0 +1,20 @@
+{\small\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{rlrrrr}
+\caption{Topic-overlap stress test; gap uses off-diagonal within-topic means.}\\
+\toprule
+$ho$ & Representation & Within & Across & Gap & Same-topic NN \\ \midrule\endfirsthead
+\toprule
+$ho$ & Representation & Within & Across & Gap & Same-topic NN \\ \midrule\endhead
+0.00 & TF-IDF & 0.729660 & 0.018342 & 0.711318 & 1.000000 \\
+0.00 & SVD k=2 & 0.999877 & 0.024643 & 0.975234 & 1.000000 \\
+0.25 & TF-IDF & 0.570101 & 0.167262 & 0.402839 & 1.000000 \\
+0.25 & SVD k=2 & 0.992650 & 0.287079 & 0.705571 & 1.000000 \\
+0.50 & TF-IDF & 0.493986 & 0.315446 & 0.178540 & 0.975000 \\
+0.50 & SVD k=2 & 0.977451 & 0.616423 & 0.361028 & 0.975000 \\
+0.75 & TF-IDF & 0.412747 & 0.368405 & 0.044343 & 0.800000 \\
+0.75 & SVD k=2 & 0.915456 & 0.853029 & 0.062427 & 0.600000 \\
+1.00 & TF-IDF & 0.388888 & 0.388497 & 0.000392 & 0.675000 \\
+1.00 & SVD k=2 & 0.876811 & 0.879948 & -0.003137 & 0.425000 \\
+\bottomrule
+\end{longtable}
+}

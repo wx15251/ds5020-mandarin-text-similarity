@@ -1,0 +1,34 @@
+data,quantity,compared_with,max_abs_error,relative_error,absolute_limit,pass
+Character baseline,unchanged TF-IDF,Iteration 2 saved matrix,0.0,0.0,0.0,True
+character,IDF convention,sklearn IDF minus its additive 1,4.440892098500626e-16,4.406708748268533e-17,1e-08,True
+character,TF-IDF convention,raw TF times adjusted sklearn IDF,2.842170943040401e-14,1.0194185393421118e-16,1e-08,True
+character,singular values,NumPy SVD,5.684341886080801e-13,5.736461830311193e-16,1e-08,True
+character,original cosine,sklearn cosine,7.771561172376096e-16,1.2326483130621036e-16,1e-08,True
+character,reduced cosine formula,sklearn cosine,6.661338147750939e-16,1.3290314343400259e-16,1e-08,True
+character,reduced cosine vs library SVD,NumPy SVD + sklearn cosine,1.3468573478725432e-11,3.886464929401032e-12,1e-08,True
+character,U orthogonality,identity,8.986024553770037e-13,6.532608838978567e-13,1e-08,True
+character,V orthogonality,identity,8.881784197001252e-16,5.156154512653603e-16,1e-08,True
+character,fold-in,row 0 of V,8.143485885625523e-14,2.654529597191309e-13,1e-08,True
+character,projected query,row 0 of D,1.546851535749738e-11,2.1413830068248316e-13,1e-08,True
+character,reconstructed cosine,coordinate cosine,4.1860265254101137e-13,1.9783836961253873e-13,1e-08,True
+character,rank-k reconstruction relative difference,"NumPy rank-k, relative to its Frobenius norm",5.345490849133763e-12,,1e-10,True
+character,tail identity difference / total energy,discarded library singular-value energy,3.28454913166321e-17,,1e-10,True
+character,energy-selected rank,"full NumPy spectrum, 90% target",0.0,0.0,0.0,True
+character,frozen known query,column of fixed corpus,0.0,0.0,0.0,True
+character,cosine tolerance sensitivity,tol 1e-13 versus 1e-14,1.2135042970484733e-10,,1e-08,True
+word,IDF convention,sklearn IDF minus its additive 1,4.440892098500626e-16,2.0302143184433327e-17,1e-08,True
+word,TF-IDF convention,raw TF times adjusted sklearn IDF,2.842170943040401e-14,6.564871008820078e-17,1e-08,True
+word,singular values,NumPy SVD,9.094947017729282e-13,9.43839366004511e-16,1e-08,True
+word,original cosine,sklearn cosine,7.771561172376096e-16,1.1393368459295725e-16,1e-08,True
+word,reduced cosine formula,sklearn cosine,8.881784197001252e-16,1.6306656137610448e-16,1e-08,True
+word,reduced cosine vs library SVD,NumPy SVD + sklearn cosine,1.620020784187659e-10,2.8850878389215186e-11,1e-08,True
+word,U orthogonality,identity,7.645075275451933e-13,5.732519635352232e-13,1e-08,True
+word,V orthogonality,identity,1.1102230246251565e-15,5.08736072750026e-16,1e-08,True
+word,fold-in,row 0 of V,1.1002310174035301e-13,1.8475495862200041e-13,1e-08,True
+word,projected query,row 0 of D,2.2595258997171186e-11,1.8288614198672885e-13,1e-08,True
+word,reconstructed cosine,coordinate cosine,5.372074313170216e-13,3.420699133748589e-13,1e-08,True
+word,rank-k reconstruction relative difference,"NumPy rank-k, relative to its Frobenius norm",1.5641860053883613e-11,,1e-10,True
+word,tail identity difference / total energy,discarded library singular-value energy,0.0,0.0,1e-10,True
+word,energy-selected rank,"full NumPy spectrum, 90% target",0.0,0.0,0.0,True
+word,frozen known query,column of fixed corpus,0.0,0.0,0.0,True
+word,cosine tolerance sensitivity,tol 1e-13 versus 1e-14,1.4592712593852752e-09,,1e-08,True

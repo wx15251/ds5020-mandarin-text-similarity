@@ -1,0 +1,9 @@
+{
+  "document_id": "sports:2",
+  "title": "冠军球队迎新欢乐派对 黄旭获大奖张军赢下PK赛",
+  "selection": "first document of unchanged Iteration 2 sample manifest, before viewing scores",
+  "query_text": "full title and body of that document; not included in tracked results",
+  "exclude_self": true,
+  "tie_break": "ascending document ID",
+  "evaluation": "in-corpus descriptive"
+}

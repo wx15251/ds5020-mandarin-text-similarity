@@ -1,0 +1,20 @@
+data,quantity,compared_with,max_abs_error,relative_error,absolute_limit,pass
+Tiny,exact rational Gram,Fraction multiplication,0.0,0.0,0.0,True
+Tiny,analytic singular values,"sqrt(6)*alpha, sqrt(2)*alpha",0.0,0.0,1e-08,True
+Tiny,analytic reconstruction,hand SVD,7.65214019330172e-17,1.1978136611587237e-16,1e-08,True
+Tiny,eigen-equations,Gv=lambda v,5.551115123125783e-17,7.633954691501535e-17,1e-08,True
+Tiny,null-space equation,Gv0=0,0.0,0.0,1e-08,True
+Tiny,rank-one cosine,analytic cosine,0.0,0.0,1e-08,True
+Tiny,rank-one energy,6/(6+2),1.1102230246251565e-16,1.4802973661668753e-16,1e-08,True
+Tiny,rank-one squared error,discarded sigma squared,1.1102230246251565e-16,3.3765505772109656e-16,1e-08,True
+Tiny,singular values,NumPy SVD,0.0,0.0,1e-08,True
+Tiny,original cosine,sklearn cosine,0.0,0.0,1e-08,True
+Tiny,reduced cosine formula,sklearn cosine,0.0,0.0,1e-08,True
+Tiny,reduced cosine vs library SVD,NumPy SVD + sklearn cosine,3.552713678800501e-15,3.1307501892311795e-15,1e-08,True
+Tiny,U orthogonality,identity,9.992007221626428e-15,9.99447407939062e-15,1e-08,True
+Tiny,V orthogonality,identity,0.0,0.0,1e-08,True
+Tiny,fold-in,row 0 of V,7.216449660063518e-15,1.0169909549522116e-14,1e-08,True
+Tiny,projected query,row 0 of D,4.107825191113079e-15,1.0131143491679366e-14,1e-08,True
+Tiny,reconstructed cosine,coordinate cosine,3.552713678800501e-15,3.0847434630978468e-15,1e-08,True
+Tiny,rank-k reconstruction relative difference,"NumPy rank-k, relative to its Frobenius norm",2.9377516547779535e-16,,1e-10,True
+Tiny,tail identity difference / total energy,discarded library singular-value energy,6.760093809728317e-33,,1e-10,True

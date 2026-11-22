@@ -1,0 +1,14 @@
+{\small\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{llrrrr}
+\caption{Real-data topic similarity, excluding self-pairs.}\\
+\toprule
+Tokens & Representation & Within & Across & Gap & Same-topic NN \\ \midrule\endfirsthead
+\toprule
+Tokens & Representation & Within & Across & Gap & Same-topic NN \\ \midrule\endhead
+character & TF-IDF & 0.124504 & 0.053298 & 0.071206 & 0.920000 \\
+character & SVD 90\% & 0.216048 & 0.092442 & 0.123605 & 0.920000 \\
+word & TF-IDF & 0.040614 & 0.011247 & 0.029367 & 0.943333 \\
+word & SVD 90\% & 0.097661 & 0.027909 & 0.069752 & 0.896667 \\
+\bottomrule
+\end{longtable}
+}

@@ -1,12 +1,20 @@
 # Project context
 
-Updated November 14, 2026. Student: **James Cottrell**. Solo DS5020 project: **Finding Similar Mandarin Texts Using Linear Algebra**.
+Updated November 21, 2026. Student: **James Cottrell**. Solo DS5020 project: **Finding Similar Mandarin Texts Using Linear Algebra**.
 
-## User decisions and current authorization
+## Current phase: Iteration 3 implementation
+
+On November 21, James supplied `reference/iteration3.pdf` and asked for a complete plan before beginning implementation. No instructor comments were supplied. Iteration 3 is due tomorrow night, November 22; the exact cutoff time was not supplied. Personal grading details remain in ignored `local/session_notes.md`.
+
+The reviewed plan is in `iteration3/plan.md`. General requirements are on handout pages 1-4 and the Mandarin project on pages 16-17. Important additions are power iteration with deflation, a four-term/three-document worked example, at least three simulation sizes with an error-versus-n plot, a topic-overlap stress test, jieba word tokens compared with characters, energy-based real-data rank selection and top-five query results. Preserve the exact Iteration 2 data/model/seed baseline and explain required changes. Core methods must be NumPy-only in `src/methods.py`, with library solvers used for checks.
+
+After reviewing the plan, James explicitly authorized completing the entire Iteration 3 continuously, including work initially scheduled for tomorrow. The core code, all experiments, 154 passing numerical comparison records, report source/local PDF/ZIP and Excel update have been prepared. See `iteration3/working_notes.md` for results and remaining external access. The handout remains unchanged in `reference/`. Solo checker/new-leader treatment remains unresolved. The Iteration 4 handout is still unavailable.
+
+## Earlier user decisions and Iteration 2 authorization
 
 The user chose individual work and this folder as the main workspace. Their undergraduate background is Computer Science and Linguistics, and their goal is to apply vector representations and SVD to Mandarin topical similarity. The original Iteration 1 proposal remains unchanged in `iteration1/proposal.md`.
 
-On November 13, the user authorized completion of the full Iteration 2, supplied their report name, and said the likely due date is Sunday, November 15 while aiming to complete today. This replaces the earlier setup-only scope. They have no existing GitHub or Overleaf projects. No exact deadline, official template, or solo checker clarification has been supplied.
+On November 13, the user authorized completion of the full Iteration 2, supplied their report name, and said the likely due date was Sunday, November 15 while aiming to complete that day. This replaced the earlier setup-only scope. At that time, there were no existing GitHub or Overleaf projects. No official template or solo checker clarification has since been supplied.
 
 The new `/Users/jc/Downloads/iteration2-1.pdf` is byte-identical to `reference/iteration2.pdf` (17 pages). It adds no requirements or date. Keep instructor documents separate from user authorization.
 

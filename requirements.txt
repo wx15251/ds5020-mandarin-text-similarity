@@ -1,5 +1,8 @@
-# Direct dependencies tested on Python 3.12, November 13, 2026.
+# Direct dependencies tested on Python 3.12; Iteration 3 additions November 21, 2026.
 numpy==2.5.4
 pandas==3.1.1
 matplotlib==3.11.2
 scipy==1.18.1
+# Explicitly required preprocessing and verification-only library.
+jieba==0.42.1
+scikit-learn==1.9.1

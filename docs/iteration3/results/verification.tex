@@ -1,0 +1,35 @@
+{\small\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{p{.14\textwidth}p{.25\textwidth}p{.29\textwidth}rl}
+\caption{Unified verification table. Full absolute/relative errors and limits are in verification\_all.csv.}\\
+\toprule
+Data & Quantity & Compared with & Difference & Pass? \\ \midrule\endfirsthead
+\toprule
+Data & Quantity & Compared with & Difference & Pass? \\ \midrule\endhead
+character & singular values & NumPy SVD & $5.68\times10^{-13}$ & Yes \\
+character & reduced cosine vs library SVD & NumPy SVD + sklearn cosine & $1.35\times10^{-11}$ & Yes \\
+character & fold-in & row 0 of V & $8.14\times10^{-14}$ & Yes \\
+word & singular values & NumPy SVD & $9.09\times10^{-13}$ & Yes \\
+word & reduced cosine vs library SVD & NumPy SVD + sklearn cosine & $1.62\times10^{-10}$ & Yes \\
+word & fold-in & row 0 of V & $1.10\times10^{-13}$ & Yes \\
+Baseline & unchanged counts & Iteration 2 NPZ & 0.000000 & Yes \\
+Sim n=40 & singular values & NumPy SVD & $2.13\times10^{-14}$ & Yes \\
+Sim n=40 & reduced cosine vs library SVD & NumPy SVD + sklearn cosine & $1.72\times10^{-14}$ & Yes \\
+Sim n=40 & fold-in & row 0 of V & $2.65\times10^{-15}$ & Yes \\
+Sim n=200 & singular values & NumPy SVD & $5.68\times10^{-14}$ & Yes \\
+Sim n=200 & reduced cosine vs library SVD & NumPy SVD + sklearn cosine & $1.96\times10^{-14}$ & Yes \\
+Sim n=200 & fold-in & row 0 of V & 0.000000 & Yes \\
+Sim n=1000 & singular values & NumPy SVD & $2.84\times10^{-14}$ & Yes \\
+Sim n=1000 & reduced cosine vs library SVD & NumPy SVD + sklearn cosine & $8.30\times10^{-15}$ & Yes \\
+Sim n=1000 & fold-in & row 0 of V & $2.08\times10^{-17}$ & Yes \\
+Tiny & exact rational Gram & Fraction multiplication & 0.000000 & Yes \\
+Tiny & analytic reconstruction & hand SVD & $7.65\times10^{-17}$ & Yes \\
+Tiny & rank-one squared error & discarded sigma squared & $1.11\times10^{-16}$ & Yes \\
+Sim n=40 & $p_{0}$ sampling & true $p$; limit $3SE=0.020663$ & 0.000236 & Yes \\
+Sim n=40 & $p_{1}$ sampling & true $p$; limit $3SE=0.020234$ & 0.007112 & Yes \\
+Sim n=200 & $p_{0}$ sampling & true $p$; limit $3SE=0.009241$ & 0.001736 & Yes \\
+Sim n=200 & $p_{1}$ sampling & true $p$; limit $3SE=0.009049$ & 0.000888 & Yes \\
+Sim n=1000 & $p_{0}$ sampling & true $p$; limit $3SE=0.004133$ & 0.000331 & Yes \\
+Sim n=1000 & $p_{1}$ sampling & true $p$; limit $3SE=0.004047$ & 0.000988 & Yes \\
+\bottomrule
+\end{longtable}
+}

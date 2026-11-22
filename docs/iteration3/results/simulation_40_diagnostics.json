@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "n_docs": 40,
+    "n_terms": 50,
+    "seed": 0,
+    "tokens_per_doc": 60,
+    "overlap": 0.0
+  },
+  "method": {
+    "gram_side": "right",
+    "tolerance": 1e-14,
+    "rank_rtol": 1e-12,
+    "total_energy": 5249.240333732596,
+    "retained_energy": 0.7434379179789365,
+    "components": [
+      {
+        "component": 1,
+        "iterations": 406,
+        "eigenvalue": 2026.0168913429804,
+        "projected_residual": 2.585206021490344e-11,
+        "original_residual": 2.5844575528269485e-11,
+        "history": []
+      },
+      {
+        "component": 2,
+        "iterations": 14,
+        "eigenvalue": 1876.4674133382396,
+        "projected_residual": 3.0095154794408073e-12,
+        "original_residual": 2.6026733286930134e-11,
+        "history": []
+      }
+    ],
+    "iterations_total": 420
+  }
+}

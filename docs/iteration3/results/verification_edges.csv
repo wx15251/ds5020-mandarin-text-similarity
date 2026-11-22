@@ -1,0 +1,12 @@
+data,quantity,compared_with,max_abs_error,relative_error,absolute_limit,pass
+tall,singular values,NumPy SVD,8.881784197001252e-16,2.22695173791658e-16,1e-08,True
+tall,full resolved reconstruction,input matrix,4.440892098500626e-16,2.1584491414967162e-16,1e-08,True
+wide,singular values,NumPy SVD,4.440892098500626e-16,1.3133844820038736e-16,1e-08,True
+wide,full resolved reconstruction,input matrix,4.440892098500626e-16,2.5298687047152846e-16,1e-08,True
+rank deficient,singular values,NumPy SVD,1.7763568394002505e-15,2.1231525148380002e-16,1e-08,True
+rank deficient,full resolved reconstruction,input matrix,0.0,0.0,1e-08,True
+repeated values,singular values,NumPy SVD,0.0,0.0,1e-08,True
+repeated values,full resolved reconstruction,input matrix,4.440892098500626e-16,1.5689958186416724e-16,1e-08,True
+energy selection,minimum rank,"16/21<.9, 20/21>=.9",0.0,0.0,0.0,True
+frozen query,known column,first document,0.0,0.0,0.0,True
+invalid inputs,explicit failures,five expected failures,0.0,0.0,0.0,True

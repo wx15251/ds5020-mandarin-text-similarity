@@ -1,0 +1,101 @@
+tokens,representation,document_id,term,dot_product_contribution
+character,TF-IDF,education:294,煊,3053.893311635558
+character,TF-IDF,education:294,张,738.2327622843669
+character,TF-IDF,education:294,伟,187.85080429292452
+character,TF-IDF,education:294,冠,89.72069550979263
+character,TF-IDF,education:294,毕,81.01693782901876
+character,TF-IDF,sports:668,冠,1435.5311281566821
+character,TF-IDF,sports:668,军,1034.3732849523608
+character,TF-IDF,sports:668,球,133.82785915522908
+character,TF-IDF,sports:668,莫,102.39615628337512
+character,TF-IDF,sports:668,伟,93.92540214646226
+character,TF-IDF,education:258,奖,2382.7646487595166
+character,TF-IDF,education:258,兰,74.57457595423084
+character,TF-IDF,education:258,供,48.613248353932846
+character,TF-IDF,education:258,金,45.86406051087812
+character,TF-IDF,education:258,夫,45.710002819386055
+character,TF-IDF,sports:374,泽,630.5206655255035
+character,TF-IDF,sports:374,脸,80.76970669331668
+character,TF-IDF,sports:374,笑,67.43276194409573
+character,TF-IDF,sports:374,派,44.00121535013832
+character,TF-IDF,sports:374,眼,37.28728797711542
+character,TF-IDF,education:14,宝,1237.2331412455276
+character,TF-IDF,education:14,她,278.72208270226236
+character,TF-IDF,education:14,泽,210.17355517516782
+character,TF-IDF,education:14,抽,105.08677758758391
+character,TF-IDF,education:14,夫,91.42000563877211
+character,SVD 90%,sports:374,泽,111.87440778201044
+character,SVD 90%,sports:374,煊,104.18927111471037
+character,SVD 90%,sports:374,旭,62.593935356639754
+character,SVD 90%,sports:374,夫,34.86213050242969
+character,SVD 90%,sports:374,夏,31.68068056984423
+character,SVD 90%,education:58,奖,109.2238516398136
+character,SVD 90%,education:58,游,101.26776049540503
+character,SVD 90%,education:58,宝,63.50137238367275
+character,SVD 90%,education:58,军,61.41746280322831
+character,SVD 90%,education:58,她,57.36969816005033
+character,SVD 90%,education:294,煊,3028.5801472219146
+character,SVD 90%,education:294,张,739.7244148628503
+character,SVD 90%,education:294,伟,189.4947714890165
+character,SVD 90%,education:294,冠,108.91385976072121
+character,SVD 90%,education:294,军,82.34463419076344
+character,SVD 90%,sports:301,泽,38.51626351369643
+character,SVD 90%,sports:301,黄,38.179993319165824
+character,SVD 90%,sports:301,夏,37.813170743717535
+character,SVD 90%,sports:301,赛,36.5021631837877
+character,SVD 90%,sports:301,煊,33.9838587032636
+character,SVD 90%,sports:937,煊,86.63395095047285
+character,SVD 90%,sports:937,赛,59.87571656616312
+character,SVD 90%,sports:937,军,48.262737587625
+character,SVD 90%,sports:937,队,33.585963437752326
+character,SVD 90%,sports:937,旭,32.37133224129398
+word,TF-IDF,sports:668,冠军,591.1131239301594
+word,TF-IDF,sports:668,球队,59.48293296551005
+word,TF-IDF,sports:668,他们,24.895356440120853
+word,TF-IDF,sports:668,拿到,18.964665394064678
+word,TF-IDF,sports:668,难得,16.763657394197683
+word,TF-IDF,sports:584,教练,143.35461879672516
+word,TF-IDF,sports:584,我,92.57862541930102
+word,TF-IDF,sports:584,你,87.43204088380475
+word,TF-IDF,sports:584,球队,52.87371819156449
+word,TF-IDF,sports:584,莱德,50.212932100886135
+word,TF-IDF,education:294,冠军,118.2226247860319
+word,TF-IDF,education:294,主持人,107.12746796499344
+word,TF-IDF,education:294,社会,72.12758795887247
+word,TF-IDF,education:294,你,51.430612284591035
+word,TF-IDF,education:294,我,39.676553751129006
+word,TF-IDF,education:126,活动,105.66153419787977
+word,TF-IDF,education:126,中国,100.46737993146122
+word,TF-IDF,education:126,搞,67.05462957679073
+word,TF-IDF,education:126,交流,61.74761058160624
+word,TF-IDF,education:126,提出,54.611283351133395
+word,TF-IDF,education:138,我,116.82540826721319
+word,TF-IDF,education:138,名人,61.215695979996255
+word,TF-IDF,education:138,微笑,56.48641766206809
+word,TF-IDF,education:138,活动,52.83076709893989
+word,TF-IDF,education:138,他,48.33049120108644
+word,SVD 90%,education:740,夏煊泽,31.686040700434994
+word,SVD 90%,education:740,黄旭,12.377359648607419
+word,SVD 90%,education:740,活动,10.702398604384884
+word,SVD 90%,education:740,高尔夫,7.921510175108748
+word,SVD 90%,education:740,张军,4.455849473498671
+word,SVD 90%,education:361,夏煊泽,7.413822546662904
+word,SVD 90%,education:361,黄旭,2.8960244322901976
+word,SVD 90%,education:361,高尔夫,1.853455636665726
+word,SVD 90%,education:361,现场,1.627165617241032
+word,SVD 90%,education:361,张军,1.0425687956244714
+word,SVD 90%,education:58,夏煊泽,40.214684875696484
+word,SVD 90%,education:58,她,25.375404675369516
+word,SVD 90%,education:58,运动员,15.785516042124883
+word,SVD 90%,education:58,黄旭,15.708861279568934
+word,SVD 90%,education:58,高尔夫,10.053671218924121
+word,SVD 90%,education:671,夏煊泽,13.466752326434474
+word,SVD 90%,education:671,活动,8.634187562211942
+word,SVD 90%,education:671,黄旭,5.260450127513466
+word,SVD 90%,education:671,高尔夫,3.3666880816086184
+word,SVD 90%,education:671,冠军,3.2325745374430954
+word,SVD 90%,technology:872,夏煊泽,17.000386769596687
+word,SVD 90%,technology:872,黄旭,6.640776081873706
+word,SVD 90%,technology:872,高尔夫,4.250096692399172
+word,SVD 90%,technology:872,老虎,3.997788679782161
+word,SVD 90%,technology:872,冠军,3.3643951148580284
