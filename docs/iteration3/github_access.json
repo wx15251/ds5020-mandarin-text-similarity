@@ -1,9 +1,27 @@
 {
-  "verified_date": "2026-11-21",
+  "verified_date": "2026-11-22",
   "repository": "https://github.com/wx15251/ds5020-mandarin-text-similarity",
   "private": false,
   "anonymous_read_verified": true,
-  "artifact_commit": "5ab886e3059bc8a4411a7a47e34e7441a3eacdd2",
+  "artifact_commit": "76d2b611724dd5e54bd0d1b9c13e80dae1f9b4b6",
   "report_sha256_matches_local": true,
-  "report_sha256": "3f8874ce34276dcc58d3d34568d8ffb9bb8f423758b782f78482ffc4fb1774ea"
+  "report_sha256": "4721b68c64febc848de89959a987acf79790c51e3cfcae79248bb234f0a09d1c",
+  "verified_artifacts": {
+    "docs/iteration3_report.pdf": {
+      "sha256": "4721b68c64febc848de89959a987acf79790c51e3cfcae79248bb234f0a09d1c",
+      "anonymous_download_matches_local": true
+    },
+    "docs/project_plan.xlsx": {
+      "sha256": "b1f346405f15adbbfdaab506051bb533c609e2c6ab6e04813b8542b8b2c308d4",
+      "anonymous_download_matches_local": true
+    },
+    "docs/iteration3_overleaf.zip": {
+      "sha256": "32b6302cb5c8de2d6790f52a589140e72bffeef9edcf2ab23b512b1ec90320c5",
+      "anonymous_download_matches_local": true
+    },
+    "README.md": {
+      "sha256": "44fb6a8c6522dab3b29a57eaeb611e43a56db8e06f74f094700123496799911f",
+      "anonymous_download_matches_local": true
+    }
+  }
 }
