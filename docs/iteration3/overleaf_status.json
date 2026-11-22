@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-11-21",
+  "iteration": 3,
+  "status": "blocked_on_owner_sign_in",
+  "observed": "Existing owner-project URL showed Restricted; Overleaf home and login pages show the browser is signed out.",
+  "login_page_opened": "https://www.overleaf.com/login",
+  "source_zip": "docs/iteration3_overleaf.zip",
+  "compiler": "XeLaTeX",
+  "local_report_pages": 18,
+  "source_zip_compiles_independently": true,
+  "iteration3_uploaded": false,
+  "iteration3_overleaf_exported": false,
+  "iteration3_viewer_url": null,
+  "prior_iteration2_project": "https://www.overleaf.com/project/6af8a768417dd66bd7ceb644",
+  "prior_iteration2_export_complete": true
+}
