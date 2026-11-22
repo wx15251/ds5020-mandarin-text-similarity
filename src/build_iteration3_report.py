@@ -142,11 +142,27 @@ def generate_tables():
           r'p{.14\textwidth}p{.25\textwidth}p{.29\textwidth}rl')
 
 
+def generate_flat_source():
+    """Equivalent single-file source for Overleaf's public-URL import."""
+    source = (REPORT/'main.tex').read_text()
+    for name in ['math.tex','experiments.tex']:
+        source = source.replace(r'\input{'+name+'}',(REPORT/name).read_text())
+    for path in sorted(RESULTS.glob('*.tex')):
+        source = source.replace(r'\input{\resultspath/'+path.name+'}',path.read_text())
+    if r'\input{' in source:
+        raise ValueError('Unresolved input in flattened Overleaf source.')
+    source = source.replace(r'\graphicspath{{../../../figures/iteration3/}{figures/}}',
+                            r'\graphicspath{{./}{figures/}}')
+    (ROOT/'docs/iteration3/overleaf_main.tex').write_text(
+        '% Generated from report/ and results/ by build_iteration3_report.py; edit canonical sources.\n'+source)
+
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--tables-only',action='store_true')
     args=parser.parse_args()
     generate_tables()
+    generate_flat_source()
     if args.tables_only:
         return
     build=ROOT/'tmp/latex_iteration3'
