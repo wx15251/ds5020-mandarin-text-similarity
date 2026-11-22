@@ -2,13 +2,13 @@
 
 James Cottrell | DS5020 Intro Linear Algebra & Probability | Fall 2026
 
-This is the main workspace for the individual project. Iteration 3 implements SVD by power iteration with deflation, verifies a four-term worked example and controlled simulations, and compares character and jieba word representations of the same 300 Mandarin news documents. The code, measured results and local report are prepared. The existing GitHub repository is public.
+This is the main workspace for the individual project. Iteration 3 implements SVD by power iteration with deflation, verifies a four-term worked example and controlled simulations, and compares character and jieba word representations of the same 300 Mandarin news documents. The code, measured results, report and sharing are prepared. The existing GitHub repository is public.
 
 ## Project files
 
 [Iteration 3 report PDF](docs/iteration3_report.pdf), [Excel project plan](docs/project_plan.xlsx), [Overleaf source ZIP](docs/iteration3_overleaf.zip), and [explanation guide](docs/iteration3/checkin_guide.md).
 
-[GitHub repository](https://github.com/wx15251/ds5020-mandarin-text-similarity). The Iteration 3 Overleaf upload/export is pending an authenticated owner session; the PDF above is the verified local XeLaTeX build.
+[GitHub repository](https://github.com/wx15251/ds5020-mandarin-text-similarity) and [Iteration 3 Overleaf Viewer project](https://www.overleaf.com/project/6b0281bab7fa0104c2372496/share#27de20eef2575feba7a2a772b5d7b4ce9d2296e8fc7c43fd). The PDF above is the actual 18-page Overleaf export, verified November 22, 2026. All 18 rendered pages are pixel-identical to the reviewed local build. Student review and the instructor's solo-checker convention remain open.
 
 Iteration 2 remains archived: [PDF](docs/iteration2_report.pdf), [source ZIP](docs/iteration2_overleaf.zip), and [Overleaf Viewer project](https://www.overleaf.com/project/6af8a768417dd66bd7ceb644/share#5cf09d52a11ce3ef3245edb03868e4e76090c54ca34d8b25).
 

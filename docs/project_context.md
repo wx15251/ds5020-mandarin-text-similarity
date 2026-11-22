@@ -1,14 +1,16 @@
 # Project context
 
-Updated November 21, 2026. Student: **James Cottrell**. Solo DS5020 project: **Finding Similar Mandarin Texts Using Linear Algebra**.
+Updated November 22, 2026. Student: **James Cottrell**. Solo DS5020 project: **Finding Similar Mandarin Texts Using Linear Algebra**.
 
-## Current phase: Iteration 3 implementation
+## Current phase: Iteration 3 prepared for student review
 
 On November 21, James supplied `reference/iteration3.pdf` and asked for a complete plan before beginning implementation. No instructor comments were supplied. Iteration 3 is due tomorrow night, November 22; the exact cutoff time was not supplied. Personal grading details remain in ignored `local/session_notes.md`.
 
 The reviewed plan is in `iteration3/plan.md`. General requirements are on handout pages 1-4 and the Mandarin project on pages 16-17. Important additions are power iteration with deflation, a four-term/three-document worked example, at least three simulation sizes with an error-versus-n plot, a topic-overlap stress test, jieba word tokens compared with characters, energy-based real-data rank selection and top-five query results. Preserve the exact Iteration 2 data/model/seed baseline and explain required changes. Core methods must be NumPy-only in `src/methods.py`, with library solvers used for checks.
 
-After reviewing the plan, James explicitly authorized completing the entire Iteration 3 continuously, including work initially scheduled for tomorrow. The core code, all experiments, 154 passing numerical comparison records, 18-page report/local PDF/ZIP and Excel update are prepared. The new work is published to the existing public GitHub repository, with anonymous read and PDF hash match verified. The only outstanding external task is the new Iteration 3 Overleaf upload/compile/export: the browser is signed out and a login tab is open for James. The existing Iteration 2 Overleaf deliverable remains complete. See `iteration3/working_notes.md` for results/access state. The handout remains unchanged in `reference/`. Student review and solo checker/new-leader treatment remain open. The Iteration 4 handout is still unavailable.
+After reviewing the plan, James explicitly authorized completing the entire Iteration 3 continuously, including work initially scheduled for tomorrow. The core code, all experiments, 154 passing numerical comparison records, 18-page report/PDF/source ZIP and Excel update are prepared. The work is published to the existing public GitHub repository. After James signed into Overleaf, the new Iteration 3 project compiled using XeLaTeX, Viewer sharing was enabled, and the actual PDF export replaced `iteration3_report.pdf` on November 22. All 18 pages are pixel-identical at 72 DPI to the reviewed local build, and normalized extracted text matches on every page. The source was imported from pinned public GitHub URLs using an equivalent flattened LaTeX file and two figures; the ZIP was not uploaded. The existing Iteration 2 Overleaf deliverable remains complete. See `iteration3/working_notes.md` and `iteration3/overleaf_status.json` for evidence. The handout remains unchanged in `reference/`. Student review and solo checker/new-leader treatment remain open. The Iteration 4 handout is still unavailable.
+
+Iteration 3 Overleaf Viewer: https://www.overleaf.com/project/6b0281bab7fa0104c2372496/share#27de20eef2575feba7a2a772b5d7b4ce9d2296e8fc7c43fd
 
 ## Earlier user decisions and Iteration 2 authorization
 
@@ -38,7 +40,7 @@ Overleaf read-only link: https://www.overleaf.com/project/6af8a768417dd66bd7ceb6
 
 Characters U+4E00..U+9FFF; raw-count TF times natural-log unsmoothed IDF; no centering; terms-by-documents orientation. A retained positive singular-value cutoff comes from eigenvalues above `1e-12 * lambda_max`. Projected query coordinates match rows of V_k Sigma_k; folded query coordinates match rows of V_k. Do not mix these geometries.
 
-The real dataset uses a pinned Tongjilibo mirror revision and a random sample from the eligible first 1,000 records per category. This limits representativeness. Topic labels are evaluation metadata, not representation inputs. The full real-data retrieval experiment remains for Iteration 3.
+The real dataset uses a pinned Tongjilibo mirror revision and a random sample from the eligible first 1,000 records per category. This limits representativeness. Topic labels are evaluation metadata, not representation inputs. The full real-data retrieval experiment is documented in Iteration 3.
 
 ## Remaining human/external steps
 
