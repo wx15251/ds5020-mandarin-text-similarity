@@ -26,3 +26,18 @@ data/processed/*
 *.fls
 *.fdb_latexmk
 ~$*.xlsx
+
+# Local working notes and agent/workflow records (kept on disk, not published).
+AGENTS.md
+CLAUDE.md
+docs/project_context.md
+docs/iteration*/working_notes.md
+docs/iteration*/plan.md
+docs/iteration*/checkin_guide.md
+docs/iteration*/requirements.md
+docs/iteration*/submission_checklist.md
+docs/iteration*/github_access.json
+docs/iteration*/overleaf_export.json
+docs/iteration*/overleaf_status.json
+docs/iteration*/build_provenance.json
+docs/iteration*/evidence/
